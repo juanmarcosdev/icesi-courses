@@ -1,0 +1,22 @@
+[
+  {
+    "id": "curso-cyed1",
+    "titulo": "Computación y estructuras discretas I",
+    "unidades": [
+      {
+        "titulo": "Unidad 1",
+        "semanas": [
+          {
+            "titulo": "Semana 1",
+            "sesiones": [
+              {
+                "titulo": "Sesión 1 - Técnicas de demostración",
+                "archivo": "assets/docs/cyed1/tecnicas_de_demostracion.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

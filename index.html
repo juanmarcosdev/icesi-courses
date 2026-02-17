@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Universidad Icesi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <button id="toggle-menu" class="hamburger">☰</button>
+        <h3>Material de Clase - Ing. Sistemas</h3>
+    </header>
+
+    <div class="main-container">
+        <nav id="sidebar">
+            <div id="sidebar-content">
+                <!-- El menú se genera aquí vía JS -->
+            </div>
+        </nav>
+
+        <main id="content-area">
+            <!-- Si no hay PDF seleccionado, se muestra un placeholder o el frame vacío -->
+            <iframe id="pdf-viewer" src="" title="Visor de Documentos"></iframe>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+:root {
+    /* Paleta Universidad ICESI */
+    --icesi-blue: #5454e9;
+    --icesi-white: #ffffff;
+    --icesi-yellow: #e4eb60;
+    --icesi-green: #4cb979;
+    --icesi-purple: #865cf0;
+    --icesi-orange: #e9683b;
+    
+    /* Variables de UI */
+    --sidebar-width: 300px;
+    --header-height: 60px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background-color: var(--icesi-blue);
+    color: var(--icesi-white);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* Layout Principal */
+.main-container {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - var(--header-height));
+}
+
+/* Sidebar (Menú) */
+#sidebar {
+    width: var(--sidebar-width);
+    background-color: #f4f4f4;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+#sidebar.collapsed {
+    transform: translateX(-100%);
+    margin-right: calc(var(--sidebar-width) * -1);
+}
+
+/* Estilos de la Jerarquía del Menú */
+.menu-item { cursor: pointer; user-select: none; }
+
+.level-curso { 
+    background-color: var(--icesi-blue); 
+    color: white; 
+    padding: 15px; 
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    font-weight: bold;
+}
+
+.level-unidad { 
+    background-color: #e9e9f0; 
+    padding: 10px 15px; 
+    border-left: 5px solid var(--icesi-purple);
+    font-size: 0.95em;
+}
+
+.level-semana { 
+    background-color: #f9f9f9; 
+    padding: 8px 15px 8px 25px; 
+    color: #444;
+    font-size: 0.9em;
+    border-left: 5px solid var(--icesi-orange);
+}
+
+.level-sesion { 
+    padding: 8px 15px 8px 40px; 
+    font-size: 0.85em;
+    color: #666;
+    display: block;
+    text-decoration: none;
+    transition: background 0.2s;
+    border-left: 5px solid var(--icesi-green);
+}
+
+.level-sesion:hover {
+    background-color: var(--icesi-yellow);
+    color: #000;
+}
+
+/* Contenido (PDF) */
+#content-area {
+    flex: 1;
+    background-color: #525659; /* Color de fondo típico de visores PDF */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Utilidad para colapsar submenús */
+.hidden { display: none; }
