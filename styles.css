@@ -7,18 +7,23 @@
     --icesi-purple: #865cf0;
     --icesi-orange: #e9683b;
     
-    /* Variables de UI */
     --sidebar-width: 300px;
-    --header-height: 60px;
+    --header-height: 70px; /* Aumenté un poco la altura para que el logo respire */
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
 
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
+    /* Nueva fuente aplicada a todo */
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* Header */
@@ -28,18 +33,40 @@ header {
     height: var(--header-height);
     display: flex;
     align-items: center;
-    padding: 0 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    justify-content: space-between; /* Separa título (izq) y logo (der) */
+    padding: 0 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     z-index: 10;
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .hamburger {
-    font-size: 24px;
+    font-size: 26px;
     cursor: pointer;
-    margin-right: 20px;
     background: none;
     border: none;
     color: white;
+    padding: 5px;
+}
+
+.site-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+/* Estilos del Logo */
+.logo-icesi {
+    height: 45px; /* Ajuste de tamaño */
+    width: auto;
+    /* Truco CSS: Invierte los colores para que el logo se vea BLANCO sobre el fondo azul */
+    filter: brightness(0) invert(1); 
+    opacity: 0.9;
 }
 
 /* Layout Principal */
@@ -49,65 +76,73 @@ header {
     height: calc(100vh - var(--header-height));
 }
 
-/* Sidebar (Menú) */
+/* Sidebar */
 #sidebar {
     width: var(--sidebar-width);
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
     overflow-y: auto;
-    border-right: 1px solid #ddd;
-    transition: transform 0.3s ease;
+    border-right: 1px solid #e0e0e0;
+    transition: margin-left 0.3s ease;
 }
 
 #sidebar.collapsed {
-    transform: translateX(-100%);
-    margin-right: calc(var(--sidebar-width) * -1);
+    margin-left: calc(var(--sidebar-width) * -1);
 }
 
-/* Estilos de la Jerarquía del Menú */
-.menu-item { cursor: pointer; user-select: none; }
+/* Menú Items */
+.menu-item { 
+    cursor: pointer; 
+    user-select: none; 
+    transition: background-color 0.2s ease;
+}
 
 .level-curso { 
-    background-color: var(--icesi-blue); 
+    background-color: #4a4ac2; /* Un tono ligeramente más oscuro del azul Icesi */
     color: white; 
-    padding: 15px; 
+    padding: 18px 20px; 
     border-bottom: 1px solid rgba(255,255,255,0.1);
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 .level-unidad { 
-    background-color: #e9e9f0; 
-    padding: 10px 15px; 
+    background-color: #f1f3f5; 
+    padding: 12px 20px; 
     border-left: 5px solid var(--icesi-purple);
-    font-size: 0.95em;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #333;
 }
 
 .level-semana { 
-    background-color: #f9f9f9; 
-    padding: 8px 15px 8px 25px; 
-    color: #444;
-    font-size: 0.9em;
+    background-color: #ffffff; 
+    padding: 10px 20px 10px 30px; 
+    color: #555;
+    font-weight: 500;
+    font-size: 0.9rem;
     border-left: 5px solid var(--icesi-orange);
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .level-sesion { 
-    padding: 8px 15px 8px 40px; 
-    font-size: 0.85em;
+    padding: 10px 20px 10px 45px; 
+    font-size: 0.85rem;
     color: #666;
     display: block;
-    text-decoration: none;
-    transition: background 0.2s;
     border-left: 5px solid var(--icesi-green);
+    background-color: #fff;
 }
 
 .level-sesion:hover {
     background-color: var(--icesi-yellow);
     color: #000;
+    font-weight: 600;
 }
 
-/* Contenido (PDF) */
+/* Contenido */
 #content-area {
     flex: 1;
-    background-color: #525659; /* Color de fondo típico de visores PDF */
+    background-color: #525659;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,5 +154,4 @@ iframe {
     border: none;
 }
 
-/* Utilidad para colapsar submenús */
 .hidden { display: none; }
