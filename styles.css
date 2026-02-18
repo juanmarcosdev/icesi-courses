@@ -1,5 +1,5 @@
 :root {
-    /* Paleta Universidad ICESI */
+    /* Paleta ICESI */
     --icesi-blue: #5454e9;
     --icesi-white: #ffffff;
     --icesi-yellow: #e4eb60;
@@ -8,7 +8,7 @@
     --icesi-orange: #e9683b;
     
     --sidebar-width: 300px;
-    --header-height: 70px; /* Aumenté un poco la altura para que el logo respire */
+    --header-height: 70px; 
 }
 
 * { 
@@ -22,7 +22,6 @@ body {
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
-    /* Nueva fuente aplicada a todo */
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -33,7 +32,7 @@ header {
     height: var(--header-height);
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Separa título (izq) y logo (der) */
+    justify-content: space-between; 
     padding: 0 25px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     z-index: 10;
@@ -60,23 +59,22 @@ header {
     letter-spacing: 0.5px;
 }
 
-/* Estilos del Logo */
+
 .logo-icesi {
-    height: 45px; /* Ajuste de tamaño */
+    height: 45px; 
     width: auto;
-    /* Truco CSS: Invierte los colores para que el logo se vea BLANCO sobre el fondo azul */
     filter: brightness(0) invert(1); 
     opacity: 0.9;
 }
 
-/* Layout Principal */
+
 .main-container {
     display: flex;
     flex: 1;
     height: calc(100vh - var(--header-height));
 }
 
-/* Sidebar */
+
 #sidebar {
     width: var(--sidebar-width);
     background-color: #f8f9fa;
@@ -97,7 +95,7 @@ header {
 }
 
 .level-curso { 
-    background-color: #4a4ac2; /* Un tono ligeramente más oscuro del azul Icesi */
+    background-color: #4a4ac2; 
     color: white; 
     padding: 18px 20px; 
     border-bottom: 1px solid rgba(255,255,255,0.1);
@@ -139,7 +137,7 @@ header {
     font-weight: 600;
 }
 
-/* Contenido */
+
 #content-area {
     flex: 1;
     background-color: #525659;
