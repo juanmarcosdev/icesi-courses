@@ -4,7 +4,7 @@
     "titulo": "Computación y estructuras discretas I",
     "unidades": [
       {
-        "titulo": "Unidad 1",
+        "titulo": "Unidad 1: Métodos de demostración",
         "semanas": [
           {
             "titulo": "Semana 2",
@@ -14,7 +14,12 @@
                 "archivo": "assets/docs/cyed1/tecnicas_de_demostracion.pdf"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titulo": "Unidad 2: Introducción a la Teoría de Conjuntos y Funciones",
+        "semanas": [
           {
             "titulo": "Semana 3",
             "sesiones": [
