@@ -7,11 +7,20 @@
         "titulo": "Unidad 1",
         "semanas": [
           {
-            "titulo": "Semana 1",
+            "titulo": "Semana 2",
             "sesiones": [
               {
                 "titulo": "Técnicas de demostración",
                 "archivo": "assets/docs/cyed1/tecnicas_de_demostracion.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Semana 3",
+            "sesiones": [
+              {
+                "titulo": "Conjuntos",
+                "archivo": "assets/docs/cyed1/conjuntos.pdf"
               }
             ]
           }
