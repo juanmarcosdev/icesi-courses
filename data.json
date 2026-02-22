@@ -32,5 +32,25 @@
         ]
       }
     ]
+  },
+  {
+    "id": "curso-cyed2",
+    "titulo": "Computación y estructuras discretas II",
+    "unidades": [
+      {
+        "titulo": "Unidad Programación Funcional",
+        "semanas": [
+          {
+            "titulo": "Semana 1",
+            "sesiones": [
+              {
+                "titulo": "Introducción a Scala",
+                "archivo": "assets/docs/cyed2/intro_scala.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
