@@ -48,6 +48,15 @@
                 "archivo": "assets/docs/cyed2/intro_scala.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Semana 2",
+            "sesiones": [
+              {
+                "titulo": "Recursividad",
+                "archivo": "assets/docs/cyed2/recursividad.pdf"
+              }
+            ]
           }
         ]
       }
