@@ -12,7 +12,6 @@
 
   <br>
 
-  <!-- Botón Principal -->
   <a href="https://juanmarcosdev.github.io/icesi-courses/">
     <img src="https://img.shields.io/badge/ACCEDER_AL_SITIO_WEB-5454e9?style=for-the-badge&logo=github&logoColor=white&labelColor=101010" alt="Ver Material de Clase">
   </a>
@@ -32,7 +31,9 @@ Actualmente, el material incluye recursos para las siguientes asignaturas:
 
 | Curso | Descripción |
 | :--- | :--- |
-| **Computación y Estructuras Discretas I** | Lógica, conjuntos, técnicas de demostración y teoría de grafos, etc.
+| **Computación y estructuras discretas I** | Lógica, conjuntos, técnicas de demostración y teoría de grafos (entre otros). |
+| **Computación y estructuras discretas II** | Equivalencia y orden parcial, inducción y recursividad, teoría de números, y fundamentos transversales de programación funcional. |
+| **Computación y estructuras discretas III** | Lenguajes formales: autómatas, gramáticas, máquinas de Turing y aplicaciones modernas (p. ej., NLP). |
 
 *(La lista de cursos se actualiza semestralmente)*
 
@@ -40,18 +41,6 @@ Actualmente, el material incluye recursos para las siguientes asignaturas:
 
 Este proyecto utiliza una arquitectura *Serverless* estática para maximizar la velocidad y facilitar el mantenimiento:
 
-*   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) **Estructura Semántica**
-*   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) **Estilos Institucionales** (Paleta oficial Icesi)
-*   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) **Lógica SPA** 
-*   ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=flat-square&logo=json&logoColor=white) **Gestión de Contenido**
-
-## 🚀 Despliegue
-
-El sitio se construye y despliega automáticamente utilizando **GitHub Pages**.
-
-Cualquier cambio en la rama `main` o actualización en el archivo `data.json` se refleja inmediatamente en el sitio en producción.
-
----
-<div align="center">
-  <small>© 2026 Juan Marcos Caicedo Mejía - Universidad Icesi</small>
-</div>
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) Estructura semántica
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) Estilos institucionales (paleta oficial Icesi)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) Lógica

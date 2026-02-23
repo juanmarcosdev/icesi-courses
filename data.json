@@ -55,6 +55,39 @@
               {
                 "titulo": "Recursividad",
                 "archivo": "assets/docs/cyed2/recursividad.pdf"
+              },
+              {
+                "titulo": "Scala básico, tipos, funciones, estructuras de decisión y control y comparación con Java",
+                "archivo": "assets/docs/cyed2/scala_basico_vs_java.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Semana 3",
+            "sesiones": [
+              {
+                "titulo": "Principios de Programación Funcional",
+                "archivo": "assets/docs/cyed2/programacion_funcional.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curso-cyed3",
+    "titulo": "Computation and Discrete Structures III",
+    "unidades": [
+      {
+        "titulo": "Week 1",
+        "semanas": [
+          {
+            "titulo": "Week 1",
+            "sesiones": [
+              {
+                "titulo": "Alphabets, Strings and Languages",
+                "archivo": "assets/docs/cyed3/alphabets_strings_and_languages.pdf"
               }
             ]
           }
