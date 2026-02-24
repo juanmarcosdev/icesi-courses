@@ -1,141 +1,136 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const sidebar = document.getElementById('sidebar-content');
-    const viewer = document.getElementById('pdf-viewer');
-    const toggleBtn = document.getElementById('toggle-menu');
-    const sidebarContainer = document.getElementById('sidebar');
+  const sidebar = document.getElementById('sidebar-content');
+  const viewer = document.getElementById('pdf-viewer');
+  const toggleBtn = document.getElementById('toggle-menu');
+  const sidebarContainer = document.getElementById('sidebar');
 
+  toggleBtn.addEventListener('click', () => {
+    sidebarContainer.classList.toggle('collapsed');
+  });
 
-    toggleBtn.addEventListener('click', () => {
-        sidebarContainer.classList.toggle('collapsed');
-    });
+  fetch('data.json')
+    .then(r => r.json())
+    .then(data => {
+      buildMenu(data);
+      handleRouting();
+    })
+    .catch(err => console.error('Error cargando data.json:', err));
 
+  window.addEventListener('hashchange', () => handleRouting());
 
-    fetch('data.json')
-        .then(response => response.json())
-        .then(data => {
-            buildMenu(data);
-            handleRouting(data); 
-        })
-        .catch(err => console.error('Error cargando cursos:', err));
+  function buildMenu(data) {
+    sidebar.innerHTML = '';
 
-    window.addEventListener('hashchange', () => {
+    const secciones = data.secciones || [];
+    secciones.forEach((seccion, secIndex) => {
+      const seccionId = seccion.id || `sec${secIndex}`;
 
-        fetch('data.json')
-            .then(res => res.json())
-            .then(data => handleRouting(data));
-    });
+      // Nivel 0: Sección
+      const seccionDiv = createItem(seccion.titulo, 'level-seccion');
+      const seccionContainer = document.createElement('div');
 
-    function buildMenu(cursos) {
-        sidebar.innerHTML = ''; 
+      seccionDiv.addEventListener('click', () => toggleVisibility(seccionContainer));
 
-        cursos.forEach((curso, cIndex) => {
-            const cursoId = curso.id || `c${cIndex}`;
+      sidebar.appendChild(seccionDiv);
+      sidebar.appendChild(seccionContainer);
 
-            const cursoDiv = createItem(curso.titulo, 'level-curso');
-            const cursoContainer = document.createElement('div');
-            
-            cursoDiv.dataset.path = cursoId; 
+      // Nivel 1: Items (Cursos / Recursos)
+      (seccion.items || []).forEach((item, itemIndex) => {
+        const itemId = item.id || `item${itemIndex}`;
 
-            cursoDiv.addEventListener('click', () => toggleVisibility(cursoContainer));
-            
-            sidebar.appendChild(cursoDiv);
-            sidebar.appendChild(cursoContainer);
+        const cursoDiv = createItem(item.titulo, 'level-curso');
+        const cursoContainer = document.createElement('div');
+        cursoContainer.classList.add('hidden');
 
-            if(curso.unidades) {
-                curso.unidades.forEach((unidad, uIndex) => {
-                    const unidadDiv = createItem(unidad.titulo, 'level-unidad');
-                    const unidadContainer = document.createElement('div');
-                    unidadContainer.classList.add('hidden'); 
-                    
-                    unidadDiv.addEventListener('click', () => toggleVisibility(unidadContainer));
+        cursoDiv.addEventListener('click', () => toggleVisibility(cursoContainer));
 
-                    cursoContainer.appendChild(unidadDiv);
-                    cursoContainer.appendChild(unidadContainer);
+        seccionContainer.appendChild(cursoDiv);
+        seccionContainer.appendChild(cursoContainer);
 
-                    if(unidad.semanas) {
-                        unidad.semanas.forEach((semana, wIndex) => {
-                            const semanaDiv = createItem(semana.titulo, 'level-semana');
-                            const semanaContainer = document.createElement('div');
-                            semanaContainer.classList.add('hidden');
+        // Nivel 2: Unidades
+        (item.unidades || []).forEach((unidad, uIndex) => {
+          const unidadDiv = createItem(unidad.titulo, 'level-unidad');
+          const unidadContainer = document.createElement('div');
+          unidadContainer.classList.add('hidden');
 
-                            semanaDiv.addEventListener('click', () => toggleVisibility(semanaContainer));
+          unidadDiv.addEventListener('click', () => toggleVisibility(unidadContainer));
 
-                            unidadContainer.appendChild(semanaDiv);
-                            unidadContainer.appendChild(semanaContainer);
+          cursoContainer.appendChild(unidadDiv);
+          cursoContainer.appendChild(unidadContainer);
 
-                            if(semana.sesiones) {
-                                semana.sesiones.forEach((sesion, sIndex) => {
+          // Nivel 3: Semanas
+          (unidad.semanas || []).forEach((semana, wIndex) => {
+            const semanaDiv = createItem(semana.titulo, 'level-semana');
+            const semanaContainer = document.createElement('div');
+            semanaContainer.classList.add('hidden');
 
-                                    const sesionDiv = createItem(sesion.titulo, 'level-sesion');
-                                    
-                                    //cursoID/unidadIndex/semanaIndex/sesionIndex
-                                    const uniquePath = `${cursoId}/${uIndex}/${wIndex}/${sIndex}`;
-                                    sesionDiv.dataset.path = uniquePath; // Guardamos la ruta en el HTML
-                                    sesionDiv.dataset.pdf = sesion.archivo; // Guardamos el PDF
+            semanaDiv.addEventListener('click', () => toggleVisibility(semanaContainer));
 
-                                    sesionDiv.addEventListener('click', (e) => {
-                                        e.stopPropagation();
-                                        window.location.hash = uniquePath; 
-                                    });
-                                    semanaContainer.appendChild(sesionDiv);
-                                });
-                            }
-                        });
-                    }
-                });
-            }
+            unidadContainer.appendChild(semanaDiv);
+            unidadContainer.appendChild(semanaContainer);
+
+            // Nivel 4: Sesiones
+            (semana.sesiones || []).forEach((sesion, sIndex) => {
+              const sesionDiv = createItem(sesion.titulo, 'level-sesion');
+
+              // Ruta: seccionId/itemId/uIndex/wIndex/sIndex
+              const uniquePath = `${seccionId}/${itemId}/${uIndex}/${wIndex}/${sIndex}`;
+              sesionDiv.dataset.path = uniquePath;
+              sesionDiv.dataset.pdf = sesion.archivo;
+
+              sesionDiv.addEventListener('click', (e) => {
+                e.stopPropagation();
+                window.location.hash = uniquePath;
+              });
+
+              semanaContainer.appendChild(sesionDiv);
+            });
+          });
         });
+      });
+
+      // Por defecto, colapsa el contenedor de sección (opcional)
+      seccionContainer.classList.add('hidden');
+    });
+  }
+
+  function handleRouting() {
+    const hash = window.location.hash.substring(1);
+    if (!hash) return;
+
+    const target = document.querySelector(`.level-sesion[data-path="${hash}"]`);
+    if (!target) return;
+
+    loadPDF(target.dataset.pdf);
+
+    // Activo
+    document.querySelectorAll('.level-sesion').forEach(el => el.classList.remove('active'));
+    target.classList.add('active');
+
+    expandParents(target);
+  }
+
+  function expandParents(element) {
+    let parent = element.parentElement;
+    while (parent && parent.id !== 'sidebar-content') {
+      if (parent.classList.contains('hidden')) parent.classList.remove('hidden');
+      parent = parent.parentElement;
     }
+  }
 
+  function createItem(text, className) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    div.className = `menu-item ${className}`;
+    return div;
+  }
 
-    function handleRouting(data) {
-        const hash = window.location.hash.substring(1); 
-        if (!hash) return;
+  function toggleVisibility(element) {
+    element.classList.toggle('hidden');
+  }
 
-
-        const targetElement = document.querySelector(`.level-sesion[data-path="${hash}"]`);
-
-        if (targetElement) {
-
-            const pdfUrl = targetElement.dataset.pdf;
-            loadPDF(pdfUrl);
-
-
-            document.querySelectorAll('.level-sesion').forEach(el => 
-                el.style.backgroundColor = 'transparent');
-            targetElement.style.backgroundColor = 'var(--icesi-yellow)';
-
-
-            expandParents(targetElement);
-        }
-    }
-
-
-    function expandParents(element) {
-        let parent = element.parentElement;
-        while (parent && parent.id !== 'sidebar-content') {
-            if (parent.classList.contains('hidden')) {
-                parent.classList.remove('hidden');
-            }
-            parent = parent.parentElement;
-        }
-    }
-
-    function createItem(text, className) {
-        const div = document.createElement('div');
-        div.textContent = text;
-        div.className = `menu-item ${className}`;
-        return div;
-    }
-
-    function toggleVisibility(element) {
-        element.classList.toggle('hidden');
-    }
-
-    function loadPDF(url) {
-        if (!url) return;
-        if(viewer.getAttribute('src') !== url) {
-            viewer.src = url;
-        }
-    }
+  function loadPDF(url) {
+    if (!url) return;
+    if (viewer.getAttribute('src') !== url) viewer.src = url;
+  }
 });

@@ -1,98 +1,116 @@
-[
-  {
-    "id": "curso-cyed1",
-    "titulo": "Computación y estructuras discretas I",
-    "unidades": [
-      {
-        "titulo": "Unidad 1: Métodos de demostración",
-        "semanas": [
-          {
-            "titulo": "Semana 2",
-            "sesiones": [
-              {
-                "titulo": "Técnicas de demostración",
-                "archivo": "assets/docs/cyed1/tecnicas_de_demostracion.pdf"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "titulo": "Unidad 2: Introducción a la Teoría de Conjuntos y Funciones",
-        "semanas": [
-          {
-            "titulo": "Semana 3",
-            "sesiones": [
-              {
-                "titulo": "Conjuntos",
-                "archivo": "assets/docs/cyed1/conjuntos.pdf"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "curso-cyed2",
-    "titulo": "Computación y estructuras discretas II",
-    "unidades": [
-      {
-        "titulo": "Unidad Programación Funcional",
-        "semanas": [
-          {
-            "titulo": "Semana 1",
-            "sesiones": [
-              {
-                "titulo": "Introducción a Scala",
-                "archivo": "assets/docs/cyed2/intro_scala.pdf"
-              }
-            ]
-          },
-          {
-            "titulo": "Semana 2",
-            "sesiones": [
-              {
-                "titulo": "Recursividad",
-                "archivo": "assets/docs/cyed2/recursividad.pdf"
-              },
-              {
-                "titulo": "Scala básico, tipos, funciones, estructuras de decisión y control y comparación con Java",
-                "archivo": "assets/docs/cyed2/scala_basico_vs_java.pdf"
-              }
-            ]
-          },
-          {
-            "titulo": "Semana 3",
-            "sesiones": [
-              {
-                "titulo": "Principios de Programación Funcional",
-                "archivo": "assets/docs/cyed2/programacion_funcional.pdf"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "curso-cyed3",
-    "titulo": "Computation and Discrete Structures III",
-    "unidades": [
-      {
-        "titulo": "Week 1",
-        "semanas": [
-          {
-            "titulo": "Week 1",
-            "sesiones": [
-              {
-                "titulo": "Alphabets, Strings and Languages",
-                "archivo": "assets/docs/cyed3/alphabets_strings_and_languages.pdf"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "secciones": [
+    {
+      "id": "sec-cursos",
+      "titulo": "Cursos",
+      "items": [
+        {
+          "id": "curso-cyed1",
+          "titulo": "Computación y estructuras discretas I",
+          "unidades": [
+            {
+              "titulo": "Unidad 1: Métodos de demostración",
+              "semanas": [
+                {
+                  "titulo": "Semana 2",
+                  "sesiones": [
+                    {
+                      "titulo": "Técnicas de demostración",
+                      "archivo": "assets/docs/cyed1/tecnicas_de_demostracion.pdf"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "titulo": "Unidad 2: Introducción a la Teoría de Conjuntos y Funciones",
+              "semanas": [
+                {
+                  "titulo": "Semana 3",
+                  "sesiones": [
+                    {
+                      "titulo": "Conjuntos",
+                      "archivo": "assets/docs/cyed1/conjuntos.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "curso-cyed2",
+          "titulo": "Computación y estructuras discretas II",
+          "unidades": [
+            {
+              "titulo": "Unidad Programación Funcional",
+              "semanas": [
+                {
+                  "titulo": "Semana 1",
+                  "sesiones": [
+                    {
+                      "titulo": "Introducción a Scala",
+                      "archivo": "assets/docs/cyed2/intro_scala.pdf"
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Semana 2",
+                  "sesiones": [
+                    {
+                      "titulo": "Recursividad",
+                      "archivo": "assets/docs/cyed2/recursividad.pdf"
+                    },
+                    {
+                      "titulo": "Scala básico, tipos, funciones, estructuras de decisión y control y comparación con Java",
+                      "archivo": "assets/docs/cyed2/scala_basico_vs_java.pdf"
+                    }
+                  ]
+                },
+                {
+                  "titulo": "Semana 3",
+                  "sesiones": [
+                    {
+                      "titulo": "Principios de Programación Funcional",
+                      "archivo": "assets/docs/cyed2/programacion_funcional.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "curso-cyed3",
+          "titulo": "Computation and Discrete Structures III",
+          "unidades": [
+            {
+              "titulo": "Week 1",
+              "semanas": [
+                {
+                  "titulo": "Week 1",
+                  "sesiones": [
+                    {
+                      "titulo": "Alphabets, Strings and Languages",
+                      "archivo": "assets/docs/cyed3/alphabets_strings_and_languages.pdf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-recursos",
+      "titulo": "Recursos adicionales",
+      "items": [
+        {
+          "id": "recurso-git",
+          "titulo": "Git"
+        }
+      ]
+    }
+  ]
+}
