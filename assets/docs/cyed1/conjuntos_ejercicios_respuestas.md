@@ -1,375 +1,155 @@
-# Conjuntos: Ejercicios (con respuestas)
+# Conjuntos — Ejercicios (con respuestas al frente)
+
+Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto cartesiano, conjunto potencia, unión, intersección, diferencia y complemento.
 
 ## Notación
 
-$$
-x \in A
-$$
-
-$$
-A \subseteq B
-$$
-
-$$
-A \subset B
-$$
-
-$$
-|A|
-$$
-
-$$
-A \times B
-$$
-
-$$
-\mathcal{P}(A)
-$$
-
-$$
-A^c = U \setminus A
-$$
+- $x \in A$: “$x$ pertenece a $A$”.
+- $A \subseteq B$: $A$ es subconjunto de $B$.
+- $A \subset B$: $A$ es subconjunto **propio** de $B$.
+- $|A|$: cardinalidad de $A$.
+- $A \times B$: producto cartesiano.
+- $\mathcal{P}(A)$: conjunto potencia.
+- $A^c = U \setminus A$: complemento de $A$ en el universo $U$.
 
 ---
 
-## A) Pertenencia / No pertenencia (5)
+## A) Pertenencia / No pertenencia
 
-Defina:
+**Defina:**
 
-$$
-A = \lbrace -2, 0, 1, 3, 5 \rbrace
-$$
+- $A = \lbrace -2, 0, 1, 3, 5 \rbrace$
+- $B = \lbrace x \in \mathbb{Z} \mid 1 \le x \le 4 \rbrace$
 
-$$
-B = \lbrace x \in \mathbb{Z} \mid 1 \le x \le 4 \rbrace = \lbrace 1,2,3,4 \rbrace
-$$
+**Determine si es verdadero o falso:**
 
-1. $$3 \in A$$ → **Verdadero**  
-2. $$2 \in A$$ → **Falso**  
-3. $$0 \in B$$ → **Falso**  
-4. $$4 \in B$$ → **Verdadero**  
-5. $$-2 \in B$$ → **Falso**
+1. $3 \in A$ → **Verdadero**
+2. $2 \in A$ → **Falso**
+3. $0 \in B$ → **Falso**
+4. $4 \in B$ → **Verdadero**
+5. $-2 \in B$ → **Falso**
 
 ---
 
-## B) Subconjunto y subconjunto propio (5)
+## B) Subconjunto y subconjunto propio
 
-Defina:
+**Defina:**
 
-$$
-C = \lbrace 1,2 \rbrace
-$$
+- $C = \lbrace 1,2 \rbrace$
+- $D = \lbrace 1,2,3 \rbrace$
+- $E = \lbrace 2,1 \rbrace$
+- $F = \lbrace 1,2,3,4 \rbrace$
 
-$$
-D = \lbrace 1,2,3 \rbrace
-$$
+**Determine si es verdadero o falso:**
 
-$$
-E = \lbrace 2,1 \rbrace
-$$
-
-$$
-F = \lbrace 1,2,3,4 \rbrace
-$$
-
-1. $$C \subseteq D$$ → **Verdadero**  
-2. $$D \subset C$$ → **Falso**  
-3. $$C \subset D$$ → **Verdadero** (porque $$C \subseteq D$$ y $$C \ne D$$)  
-4. $$D \subseteq F$$ → **Verdadero**  
-5. $$D \subseteq D$$ → **Verdadero**
+1. $C \subseteq D$ → **Verdadero**
+2. $D \subset C$ → **Falso**
+3. $C \subset D$ → **Verdadero**
+4. $D \subseteq F$ → **Verdadero**
+5. $D \subseteq D$ → **Verdadero**
 
 ---
 
-## C) Cardinalidad de conjuntos (3)
+## C) Cardinalidad
 
-1. Sea:
+1. Sea $G = \lbrace a,b,c,d \rbrace$. Calcule $|G|$. → **Respuesta:** $|G| = 4$.
 
-$$
-G = \lbrace a,b,c,d \rbrace
-$$
+2. Sea  
+   $H = \lbrace x \in \mathbb{Z} \mid -2 \le x \le 3 \rbrace$.  
+   Calcule $|H|$. → **Respuesta:** $|H| = 6$.
 
-Entonces:
-
-$$
-|G| = 4
-$$
-
-2. Sea:
-
-$$
-H = \lbrace x \in \mathbb{Z} \mid -2 \le x \le 3 \rbrace
-= \lbrace -2,-1,0,1,2,3 \rbrace
-$$
-
-Entonces:
-
-$$
-|H| = 6
-$$
-
-3. Sea:
-
-$$
-I = \lbrace n \in \mathbb{N} \mid 1 \le n \le 10 \text{ y } 3 \mid n \rbrace
-= \lbrace 3,6,9 \rbrace
-$$
-
-Entonces:
-
-$$
-|I| = 3
-$$
+3. Sea  
+   $I = \lbrace n \in \mathbb{N} \mid 1 \le n \le 10 \text{ y } n \text{ es múltiplo de } 3 \rbrace$.  
+   Calcule $|I|$. → **Respuesta:** $|I| = 3$.
 
 ---
 
-## D) Producto cartesiano (5)
+## D) Producto cartesiano
 
-Defina:
+**Defina:**
 
-$$
-J = \lbrace 0,1 \rbrace
-$$
+- $J = \lbrace 0,1 \rbrace$
+- $K = \lbrace a,b,c \rbrace$
+- $L = \lbrace 2,4 \rbrace$
 
-$$
-K = \lbrace a,b,c \rbrace
-$$
+1. Escriba $J \times K$. → **Respuesta:** $\lbrace (0,a),(0,b),(0,c),(1,a),(1,b),(1,c) \rbrace$.
 
-$$
-L = \lbrace 2,4 \rbrace
-$$
+2. ¿Cuál es $|J \times K|$? → **Respuesta:** $|J \times K| = 6$.
 
-1.
+3. Escriba $K \times J$. → **Respuesta:** $\lbrace (a,0),(a,1),(b,0),(b,1),(c,0),(c,1) \rbrace$.
 
-$$
-J \times K = \lbrace (0,a),(0,b),(0,c),(1,a),(1,b),(1,c) \rbrace
-$$
+4. Escriba $L \times J$. → **Respuesta:** $\lbrace (2,0),(2,1),(4,0),(4,1) \rbrace$.
 
-2.
-
-$$
-|J \times K| = |J|\cdot|K| = 2\cdot 3 = 6
-$$
-
-3.
-
-$$
-K \times J = \lbrace (a,0),(a,1),(b,0),(b,1),(c,0),(c,1) \rbrace
-$$
-
-4.
-
-$$
-L \times J = \lbrace (2,0),(2,1),(4,0),(4,1) \rbrace
-$$
-
-5.
-
-$$
-(a,1) \in K \times J
-$$
-
-→ **Sí**, porque:
-
-$$
-a \in K \quad \text{y} \quad 1 \in J
-$$
+5. Determine si $(a,1) \in K \times J$. → **Respuesta:** **Sí**.
 
 ---
 
-## E) Conjunto potencia (5)
+## E) Conjunto potencia
 
-Defina:
+**Defina:**
 
-$$
-M = \lbrace p,q \rbrace
-$$
+- $M = \lbrace p,q \rbrace$
+- $N = \lbrace 1,2,3 \rbrace$
 
-$$
-N = \lbrace 1,2,3 \rbrace
-$$
+1. Escriba $\mathcal{P}(M)$. → **Respuesta:** $\lbrace \varnothing, \lbrace p \rbrace, \lbrace q \rbrace, \lbrace p,q \rbrace \rbrace$.
 
-1.
+2. Calcule $|\mathcal{P}(M)|$. → **Respuesta:** $|\mathcal{P}(M)| = 4$.
 
-$$
-\mathcal{P}(M) = \lbrace \varnothing, \lbrace p \rbrace, \lbrace q \rbrace, \lbrace p,q \rbrace \rbrace
-$$
+3. Calcule $|\mathcal{P}(N)|$. → **Respuesta:** $|\mathcal{P}(N)| = 8$.
 
-2.
+4. Determine si $\lbrace 1,3 \rbrace \in \mathcal{P}(N)$. → **Respuesta:** **Verdadero**.
 
-$$
-|\mathcal{P}(M)| = 2^{|M|} = 2^2 = 4
-$$
-
-3.
-
-$$
-|\mathcal{P}(N)| = 2^{|N|} = 2^3 = 8
-$$
-
-4.
-
-$$
-\lbrace 1,3 \rbrace \in \mathcal{P}(N)
-$$
-
-→ **Verdadero**, porque:
-
-$$
-\lbrace 1,3 \rbrace \subseteq N
-$$
-
-5.
-
-$$
-\lbrace 4 \rbrace \in \mathcal{P}(N)
-$$
-
-→ **Falso**, porque:
-
-$$
-4 \notin N
-$$
-
-y por tanto:
-
-$$
-\lbrace 4 \rbrace \nsubseteq N
-$$
+5. Determine si $\lbrace 4 \rbrace \in \mathcal{P}(N)$. → **Respuesta:** **Falso**.
 
 ---
 
-## F) Unión (3)
+## F) Unión
 
-Defina:
+**Defina:**
 
-$$
-P = \lbrace 1,2,4,7 \rbrace
-$$
+- $P = \lbrace 1,2,4,7 \rbrace$
+- $Q = \lbrace 2,3,7,8 \rbrace$
 
-$$
-Q = \lbrace 2,3,7,8 \rbrace
-$$
-
-1.
-
-$$
-P \cup Q = \lbrace 1,2,3,4,7,8 \rbrace
-$$
-
-2.
-
-$$
-|P \cup Q| = 6
-$$
-
-3.
-
-$$
-(P \cup Q) \setminus P = \lbrace 3,8 \rbrace
-$$
+1. $P \cup Q$ → **Respuesta:** $\lbrace 1,2,3,4,7,8 \rbrace$.
+2. $|P \cup Q|$ → **Respuesta:** $6$.
+3. $(P \cup Q) \setminus P$ → **Respuesta:** $\lbrace 3,8 \rbrace$.
 
 ---
 
-## G) Intersección (3)
+## G) Intersección
 
-Con $$P$$ y $$Q$$:
+Con los conjuntos $P$ y $Q$ anteriores:
 
-1.
-
-$$
-P \cap Q = \lbrace 2,7 \rbrace
-$$
-
-2.
-
-$$
-|P \cap Q| = 2
-$$
-
-3.
-
-$$
-Q \setminus \lbrace 7 \rbrace = \lbrace 2,3,8 \rbrace
-$$
-
-Entonces:
-
-$$
-P \cap (Q \setminus \lbrace 7 \rbrace) = \lbrace 2 \rbrace
-$$
+1. $P \cap Q$ → **Respuesta:** $\lbrace 2,7 \rbrace$.
+2. $|P \cap Q|$ → **Respuesta:** $2$.
+3. $P \cap (Q \setminus \lbrace 7 \rbrace)$ → **Respuesta:** $\lbrace 2 \rbrace$.
 
 ---
 
-## H) Diferencia (3)
+## H) Diferencia
 
-Defina:
+**Defina:**
 
-$$
-R = \lbrace 1,2,3,4,5,6 \rbrace
-$$
+- $R = \lbrace 1,2,3,4,5,6 \rbrace$
+- $S = \lbrace 2,4,6,8 \rbrace$
 
-$$
-S = \lbrace 2,4,6,8 \rbrace
-$$
-
-1.
-
-$$
-R \setminus S = \lbrace 1,3,5 \rbrace
-$$
-
-2.
-
-$$
-S \setminus R = \lbrace 8 \rbrace
-$$
-
-3.
-
-$$
-(R \setminus S) \cup (S \setminus R) = \lbrace 1,3,5,8 \rbrace
-$$
+1. $R \setminus S$ → **Respuesta:** $\lbrace 1,3,5 \rbrace$.
+2. $S \setminus R$ → **Respuesta:** $\lbrace 8 \rbrace$.
+3. $(R \setminus S) \cup (S \setminus R)$ → **Respuesta:** $\lbrace 1,3,5,8 \rbrace$.
 
 ---
 
-## I) Complemento (3)
+## I) Complemento
 
-Universo:
+**Universo:**
 
-$$
-U = \lbrace 1,2,3,4,5,6,7,8,9,10 \rbrace
-$$
+- $U = \lbrace 1,2,3,4,5,6,7,8,9,10 \rbrace$
 
-Conjuntos:
+**Conjuntos:**
 
-$$
-T = \lbrace 2,4,6,8,10 \rbrace
-$$
+- $T = \lbrace 2,4,6,8,10 \rbrace$
+- $V = \lbrace 1,2,3,5,8 \rbrace$
 
-$$
-V = \lbrace 1,2,3,5,8 \rbrace
-$$
-
-1.
-
-$$
-T^c = U \setminus T = \lbrace 1,3,5,7,9 \rbrace
-$$
-
-2.
-
-$$
-V^c = U \setminus V = \lbrace 4,6,7,9,10 \rbrace
-$$
-
-3.
-
-$$
-T \cap V = \lbrace 2,8 \rbrace
-$$
-
-Entonces:
-
-$$
-(T \cap V)^c = U \setminus \lbrace 2,8 \rbrace = \lbrace 1,3,4,5,6,7,9,10 \rbrace
-$$
+1. $T^c$ → **Respuesta:** $\lbrace 1,3,5,7,9 \rbrace$.
+2. $V^c$ → **Respuesta:** $\lbrace 4,6,7,9,10 \rbrace$.
+3. $(T \cap V)^c$ → **Respuesta:** $\lbrace 1,3,4,5,6,7,9,10 \rbrace$.
