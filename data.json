@@ -123,6 +123,15 @@
                 "archivo": "assets/docs/cyed3/regular_languages_and_regular_expressions.pdf"
               }
             ]
+          },
+                    {
+            "titulo": "Week 3",
+            "sesiones": [
+              {
+                "titulo": "Finite State Machines (Automata)",
+                "archivo": "assets/docs/cyed3/finite_state_machines.pdf"
+              }
+            ]
           }
         ]
       },
