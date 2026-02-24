@@ -154,11 +154,27 @@ iframe {
 
 .hidden { display: none; }
 
-#md-viewer {
-  width: 100%;
-  height: 100%;
-  overflow-y: auto;
-  padding: 24px;
-  background: #ffffff;
-  color: #111;
+#md-viewer h2 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  color: #5454e9;
+}
+
+#md-viewer p {
+  margin-bottom: 14px;
+}
+
+#md-viewer ul, 
+#md-viewer ol {
+  margin-bottom: 18px;
+  padding-left: 25px;
+}
+
+#md-viewer li {
+  margin-bottom: 6px;
+}
+
+#md-viewer strong {
+  display: block;
+  margin-top: 10px;
 }
