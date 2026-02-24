@@ -141,11 +141,10 @@ document.addEventListener('DOMContentLoaded', () => {
         mdViewer.innerHTML = marked.parse(mdText);
 
         // Re-render de matemáticas (si usas MathJax)
-        if (window.MathJax && window.MathJax.typesetPromise) {
-        // Espera a que MathJax termine de inicializar antes de typesetear
-        return MathJax.startup.promise
-            .then(() => MathJax.typesetPromise([mdViewer]))
-            .catch(err => console.error('MathJax typeset failed:', err));
+        if (window.MathJax) {
+            MathJax.typesetClear([mdViewer]);
+            MathJax.typesetPromise([mdViewer])
+                .catch(err => console.error(err));
         }
       })
       .catch(err => {
