@@ -1,4 +1,4 @@
-# Conjuntos — Ejercicios (con respuestas al frente)
+# Conjuntos — Ejercicios (Solución)
 
 Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto cartesiano, conjunto potencia, unión, intersección, diferencia y complemento.
 
@@ -150,6 +150,6 @@ Con los conjuntos $P$ y $Q$ anteriores:
 - $T = \lbrace 2,4,6,8,10 \rbrace$
 - $V = \lbrace 1,2,3,5,8 \rbrace$
 
-1. $T^c$ → **Respuesta:** $\lbrace 1,3,5,7,9 \rbrace$.
-2. $V^c$ → **Respuesta:** $\lbrace 4,6,7,9,10 \rbrace$.
-3. $(T \cap V)^c$ → **Respuesta:** $\lbrace 1,3,4,5,6,7,9,10 \rbrace$.
+1. $\overline{T}$ → **Respuesta:** $\lbrace 1,3,5,7,9 \rbrace$.
+2. $\overline{V}$ → **Respuesta:** $\lbrace 4,6,7,9,10 \rbrace$.
+3. $\overline{(T \cap V)}$ → **Respuesta:** $\lbrace 1,3,4,5,6,7,9,10 \rbrace$.
