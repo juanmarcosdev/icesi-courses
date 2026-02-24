@@ -33,13 +33,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const cursoDiv = createItem(curso.titulo, 'level-curso');
             const cursoContainer = document.createElement('div');
-            
-            cursoDiv.dataset.path = cursoId; 
+
+            cursoContainer.classList.add('hidden'); //Colapsar unidades al cargar
+
+            cursoDiv.dataset.path = cursoId;
 
             cursoDiv.addEventListener('click', () => toggleVisibility(cursoContainer));
-            
+
             sidebar.appendChild(cursoDiv);
             sidebar.appendChild(cursoContainer);
+
 
             if(curso.unidades) {
                 curso.unidades.forEach((unidad, uIndex) => {
