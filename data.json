@@ -30,6 +30,18 @@
             ]
           }
         ]
+      },
+      {
+        "titulo": "Unidad 3: Estructuras Discretas no recursivas y análisis de algoritmos",
+        "semanas": []
+      },
+      {
+        "titulo": "Unidad 4: Algoritmos y estructuras discretas recursivas",
+        "semanas": []
+      },
+      {
+        "titulo": "Unidad 5: Grafos",
+        "semanas": []
       }
     ]
   },
@@ -38,7 +50,19 @@
     "titulo": "Computación y estructuras discretas II",
     "unidades": [
       {
-        "titulo": "Unidad Programación Funcional",
+        "titulo": "Unidad 1: Relaciones de equivalencia y conjuntos parcialmente ordenados",
+        "semanas": []
+      },
+      {
+        "titulo": "Unidad 2: Inducción y recursividad",
+        "semanas": []
+      },
+      {
+        "titulo": "Unidad 3: Introducción a la teoría de números",
+        "semanas": []
+      },
+      {
+        "titulo": "Unidad: Programación Funcional",
         "semanas": [
           {
             "titulo": "Semana 1",
@@ -80,7 +104,7 @@
     "titulo": "Computation and Discrete Structures III",
     "unidades": [
       {
-        "titulo": "Week 1",
+        "titulo": "Unit 1: Regular Languages and Finite-State Automatons",
         "semanas": [
           {
             "titulo": "Week 1",
@@ -92,6 +116,14 @@
             ]
           }
         ]
+      },
+      {
+        "titulo": "Unit 2: Grammars and Languages",
+        "semanas": []
+      },
+      {
+        "titulo": "Unit 3: Turing Machines and Applications",
+        "semanas": []
       }
     ]
   }
