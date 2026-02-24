@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+  if (window.marked && window.markedMath) {
+    marked.use({
+      extensions: [markedMath()]
+    });
+  }
+
   const sidebar = document.getElementById('sidebar-content');
   const pdfViewer = document.getElementById('pdf-viewer');
 
