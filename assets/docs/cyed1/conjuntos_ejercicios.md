@@ -2,7 +2,6 @@
 
 Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto cartesiano, conjunto potencia, unión, intersección, diferencia y complemento.
 
-
 ## Notación
 
 - $x \in A$: “$x$ pertenece a $A$”.
@@ -13,15 +12,14 @@ Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto c
 - $\mathcal{P}(A)$: conjunto potencia.
 - $A^c = U \setminus A$: complemento de $A$ en el universo $U$.
 
-
 ---
 
 ## A) Pertenencia / No pertenencia
 
 **Defina:**
 
-- $A = \{-2, 0, 1, 3, 5\}$
-- $B = \{x \in \mathbb{Z} \mid 1 \le x \le 4\}$
+- $A = \lbrace -2, 0, 1, 3, 5 \rbrace$
+- $B = \lbrace x \in \mathbb{Z} \mid 1 \le x \le 4 \rbrace$
 
 **Determine si es verdadero o falso:**
 
@@ -31,17 +29,16 @@ Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto c
 4. $4 \in B$
 5. $-2 \in B$
 
-
 ---
 
 ## B) Subconjunto y subconjunto propio
 
 **Defina:**
 
-- $C = \{1,2\}$
-- $D = \{1,2,3\}$
-- $E = \{2,1\}$
-- $F = \{1,2,3,4\}$
+- $C = \lbrace 1,2 \rbrace$
+- $D = \lbrace 1,2,3 \rbrace$
+- $E = \lbrace 2,1 \rbrace$
+- $F = \lbrace 1,2,3,4 \rbrace$
 
 **Determine si es verdadero o falso:**
 
@@ -51,21 +48,19 @@ Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto c
 4. $D \subseteq F$
 5. $D \subseteq D$
 
-
 ---
 
 ## C) Cardinalidad
 
-1. Sea $G = \{a,b,c,d\}$. Calcule $|G|$.
+1. Sea $G = \lbrace a,b,c,d \rbrace$. Calcule $|G|$.
 
 2. Sea  
-   $H = \{x \in \mathbb{Z} \mid -2 \le x \le 3\}$.  
+   $H = \lbrace x \in \mathbb{Z} \mid -2 \le x \le 3 \rbrace$.  
    Calcule $|H|$.
 
 3. Sea  
-   $I = \{n \in \mathbb{N} \mid 1 \le n \le 10 \text{ y } n \text{ es múltiplo de } 3\}$.  
+   $I = \lbrace n \in \mathbb{N} \mid 1 \le n \le 10 \text{ y } n \text{ es múltiplo de } 3 \rbrace$.  
    Calcule $|I|$.
-
 
 ---
 
@@ -73,9 +68,9 @@ Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto c
 
 **Defina:**
 
-- $J = \{0,1\}$
-- $K = \{a,b,c\}$
-- $L = \{2,4\}$
+- $J = \lbrace 0,1 \rbrace$
+- $K = \lbrace a,b,c \rbrace$
+- $L = \lbrace 2,4 \rbrace$
 
 1. Escriba $J \times K$.
 
@@ -87,15 +82,14 @@ Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto c
 
 5. Determine si $(a,1) \in K \times J$.
 
-
 ---
 
 ## E) Conjunto potencia
 
 **Defina:**
 
-- $M = \{p,q\}$
-- $N = \{1,2,3\}$
+- $M = \lbrace p,q \rbrace$
+- $N = \lbrace 1,2,3 \rbrace$
 
 1. Escriba $\mathcal{P}(M)$.
 
@@ -103,10 +97,9 @@ Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto c
 
 3. Calcule $|\mathcal{P}(N)|$.
 
-4. Determine si $\{1,3\} \in \mathcal{P}(N)$.
+4. Determine si $\lbrace 1,3 \rbrace \in \mathcal{P}(N)$.
 
-5. Determine si $\{4\} \in \mathcal{P}(N)$.
-
+5. Determine si $\lbrace 4 \rbrace \in \mathcal{P}(N)$.
 
 ---
 
@@ -114,15 +107,14 @@ Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto c
 
 **Defina:**
 
-- $P = \{1,2,4,7\}$
-- $Q = \{2,3,7,8\}$
+- $P = \lbrace 1,2,4,7 \rbrace$
+- $Q = \lbrace 2,3,7,8 \rbrace$
 
 1. $P \cup Q$
 
 2. $|P \cup Q|$
 
 3. $(P \cup Q) \setminus P$
-
 
 ---
 
@@ -134,8 +126,7 @@ Con los conjuntos $P$ y $Q$ anteriores:
 
 2. $|P \cap Q|$
 
-3. $P \cap (Q \setminus \{7\})$
-
+3. $P \cap (Q \setminus \lbrace 7 \rbrace)$
 
 ---
 
@@ -143,8 +134,8 @@ Con los conjuntos $P$ y $Q$ anteriores:
 
 **Defina:**
 
-- $R = \{1,2,3,4,5,6\}$
-- $S = \{2,4,6,8\}$
+- $R = \lbrace 1,2,3,4,5,6 \rbrace$
+- $S = \lbrace 2,4,6,8 \rbrace$
 
 1. $R \setminus S$
 
@@ -152,19 +143,18 @@ Con los conjuntos $P$ y $Q$ anteriores:
 
 3. $(R \setminus S) \cup (S \setminus R)$
 
-
 ---
 
 ## I) Complemento
 
 **Universo:**
 
-- $U = \{1,2,3,4,5,6,7,8,9,10\}$
+- $U = \lbrace 1,2,3,4,5,6,7,8,9,10 \rbrace$
 
 **Conjuntos:**
 
-- $T = \{2,4,6,8,10\}$
-- $V = \{1,2,3,5,8\}$
+- $T = \lbrace 2,4,6,8,10 \rbrace$
+- $V = \lbrace 1,2,3,5,8 \rbrace$
 
 1. $T^c$
 
