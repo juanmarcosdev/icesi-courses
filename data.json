@@ -11,6 +11,7 @@
             "sesiones": [
               {
                 "titulo": "Técnicas de demostración",
+                "tipo": "pdf",
                 "archivo": "assets/docs/cyed1/tecnicas_de_demostracion.pdf"
               }
             ]
@@ -24,8 +25,19 @@
             "titulo": "Semana 3",
             "sesiones": [
               {
-                "titulo": "Conjuntos",
+                "titulo": "Conjuntos (Diapositivas)",
+                "tipo": "pdf",
                 "archivo": "assets/docs/cyed1/conjuntos.pdf"
+              },
+              {
+                "titulo": "Conjuntos: Ejercicios",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed1/conjuntos_ejercicios.md"
+              },
+              {
+                "titulo": "Conjuntos: Ejercicios (con respuestas)",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed1/conjuntos_ejercicios_respuestas.md"
               }
             ]
           }
@@ -69,6 +81,7 @@
             "sesiones": [
               {
                 "titulo": "Introducción a Scala",
+                "tipo": "pdf",
                 "archivo": "assets/docs/cyed2/intro_scala.pdf"
               }
             ]
@@ -78,10 +91,12 @@
             "sesiones": [
               {
                 "titulo": "Recursividad",
+                "tipo": "pdf",
                 "archivo": "assets/docs/cyed2/recursividad.pdf"
               },
               {
                 "titulo": "Scala básico, tipos, funciones, estructuras de decisión y control y comparación con Java",
+                "tipo": "pdf",
                 "archivo": "assets/docs/cyed2/scala_basico_vs_java.pdf"
               }
             ]
@@ -91,6 +106,7 @@
             "sesiones": [
               {
                 "titulo": "Principios de Programación Funcional",
+                "tipo": "pdf",
                 "archivo": "assets/docs/cyed2/programacion_funcional.pdf"
               }
             ]
@@ -111,6 +127,7 @@
             "sesiones": [
               {
                 "titulo": "Alphabets, Strings and Languages",
+                "tipo": "pdf",
                 "archivo": "assets/docs/cyed3/alphabets_strings_and_languages.pdf"
               }
             ]
@@ -120,15 +137,17 @@
             "sesiones": [
               {
                 "titulo": "Regular Languages and Regular Expressions",
+                "tipo": "pdf",
                 "archivo": "assets/docs/cyed3/regular_languages_and_regular_expressions.pdf"
               }
             ]
           },
-                    {
+          {
             "titulo": "Week 3",
             "sesiones": [
               {
                 "titulo": "Finite State Machines (Automata)",
+                "tipo": "pdf",
                 "archivo": "assets/docs/cyed3/finite_state_machines.pdf"
               }
             ]
