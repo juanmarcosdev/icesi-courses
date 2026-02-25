@@ -1,163 +1,131 @@
 # Conjuntos — Ejercicios
 
-Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto cartesiano, conjunto potencia, unión, intersección, diferencia y complemento.
-
-## Notación
-
-- $x \in A$: “$x$ pertenece a $A$”.
-- $A \subseteq B$: $A$ es subconjunto de $B$.
-- $A \subset B$: $A$ es subconjunto **propio** de $B$.
-- $|A|$: cardinalidad de $A$.
-- $A \times B$: producto cartesiano.
-- $\mathcal{P}(A)$: conjunto potencia.
-- $A^c = U \setminus A$: complemento de $A$ en el universo $U$.
+Estas actividades practican: pertenencia, subconjuntos, cardinalidad con operaciones,
+producto cartesiano explícito, conjunto potencia y operaciones combinadas.
 
 ---
 
-## A) Pertenencia / No pertenencia
+## A) Pertenencia y descripción por comprensión
 
-**Defina:**
+Defina:
 
-- $A = \lbrace -2, 0, 1, 3, 5 \rbrace$
-- $B = \lbrace x \in \mathbb{Z} \mid 1 \le x \le 4 \rbrace$
+- $A = \{x \in \mathbb{Z} \mid -4 \le x \le 6 \text{ y } x \text{ es par}\}$
+- $B = \{-3,-1,0,2,4,7\}$
 
-**Determine si es verdadero o falso:**
-
-1. $3 \in A$
-2. $2 \in A$
-3. $0 \in B$
-4. $4 \in B$
-5. $-2 \in B$
-
----
-
-## B) Subconjunto y subconjunto propio
-
-**Defina:**
-
-- $C = \lbrace 1,2 \rbrace$
-- $D = \lbrace 1,2,3 \rbrace$
-- $E = \lbrace 2,1 \rbrace$
-- $F = \lbrace 1,2,3,4 \rbrace$
-
-**Determine si es verdadero o falso:**
-
-1. $C \subseteq D$
-2. $D \subset C$
-3. $C \subset D$
-4. $D \subseteq F$
-5. $D \subseteq D$
+1. Escriba explícitamente el conjunto $A$.
+2. Determine si:
+   - $4 \in A$
+   - $5 \in A$
+   - $-1 \in B$
+   - $6 \in B$
+3. Calcule $A \cap B$.
 
 ---
 
-## C) Cardinalidad
+## B) Subconjuntos
 
-1. Sea $G = \lbrace a,b,c,d \rbrace$. Calcule $|G|$.
+Defina:
 
-2. Sea  
-   $H = \lbrace x \in \mathbb{Z} \mid -2 \le x \le 3 \rbrace$.  
-   Calcule $|H|$.
+- $C = \{1,2,3,4,5\}$
+- $D = \{x \in \mathbb{N} \mid x \le 5\}$
+- $E = \{2,4\}$
+- $F = \{1,2,3,4,5,6\}$
 
-3. Sea  
-   $I = \lbrace n \in \mathbb{N} \mid 1 \le n \le 10 \text{ y } n \text{ es múltiplo de } 3 \rbrace$.  
-   Calcule $|I|$.
+Determine cuáles afirmaciones son verdaderas:
+
+1. $C = D$
+2. $E \subset C$
+3. $E \subseteq D$
+4. $C \subset F$
+5. $F \subseteq C$
 
 ---
 
-## D) Producto cartesiano
+## C) Cardinalidad con operaciones
 
-**Defina:**
+Sea:
 
-- $J = \lbrace 0,1 \rbrace$
-- $K = \lbrace a,b,c \rbrace$
-- $L = \lbrace 2,4 \rbrace$
+- $G = \{1,2,3,4,5,6,7,8,9\}$
+- $H = \{2,4,6,8,10,12\}$
+- $I = \{1,3,5,7,9,11\}$
 
-1. Escriba $J \times K$.
+1. Calcule:
+   - $|G \cap H|$
+   - $|G \cup H|$
+   - $|(G \cup H) \setminus I|$
 
-2. ¿Cuál es $|J \times K|$?
+2. Verifique que:
+$|G \cup H| = |G| + |H| - |G \cap H|$
 
-3. Escriba $K \times J$.
+---
 
-4. Escriba $L \times J$.
+## D) Producto cartesiano (explícito)
 
-5. Determine si $(a,1) \in K \times J$.
+Sea:
+
+- $J = \{1,2,3\}$
+- $K = \{a,b,c,d\}$
+
+1. Escriba completamente $J \times K$.
+2. Escriba completamente $K \times J$.
+3. Escriba el conjunto:
+   $L = \{(x,y) \in J \times J \mid x < y\}$
 
 ---
 
 ## E) Conjunto potencia
 
-**Defina:**
+Sea:
 
-- $M = \lbrace p,q \rbrace$
-- $N = \lbrace 1,2,3 \rbrace$
+$M = \{p,q,r\}$
 
-1. Escriba $\mathcal{P}(M)$.
-
-2. Calcule $|\mathcal{P}(M)|$.
-
-3. Calcule $|\mathcal{P}(N)|$.
-
-4. Determine si $\lbrace 1,3 \rbrace \in \mathcal{P}(N)$.
-
-5. Determine si $\lbrace 4 \rbrace \in \mathcal{P}(N)$.
+1. ¿Cuántos elementos tiene $\mathcal{P}(M)$?
+2. ¿Cuántos subconjuntos de $M$ tienen exactamente 2 elementos?
+3. Escriba todos los subconjuntos de 2 elementos.
+4. Determine si:
+   - $\{p,r\} \in \mathcal{P}(M)$
+   - $\{p,q,r,s\} \in \mathcal{P}(M)$
 
 ---
 
-## F) Unión
+## F) Operaciones combinadas
 
-**Defina:**
+Sea:
 
-- $P = \lbrace 1,2,4,7 \rbrace$
-- $Q = \lbrace 2,3,7,8 \rbrace$
+- $P = \{1,2,3,5,7,9\}$
+- $Q = \{2,4,6,8,9\}$
+- $R = \{1,3,5,7\}$
 
-1. $P \cup Q$
+1. Calcule:
+   - $P \cup Q$
+   - $P \cap Q$
+   - $P \setminus Q$
 
-2. $|P \cup Q|$
+2. Calcule:
+   $(P \cup Q) \setminus R$
 
-3. $(P \cup Q) \setminus P$
-
----
-
-## G) Intersección
-
-Con los conjuntos $P$ y $Q$ anteriores:
-
-1. $P \cap Q$
-
-2. $|P \cap Q|$
-
-3. $P \cap (Q \setminus \lbrace 7 \rbrace)$
+3. Calcule:
+   $P \cap (Q \cup R)$
 
 ---
 
-## H) Diferencia
+## G) Complemento y leyes de De Morgan
 
-**Defina:**
+Universo:
 
-- $R = \lbrace 1,2,3,4,5,6 \rbrace$
-- $S = \lbrace 2,4,6,8 \rbrace$
+$U = \{1,2,3,4,5,6,7,8,9,10,11,12\}$
 
-1. $R \setminus S$
+Conjuntos:
 
-2. $S \setminus R$
+- $S = \{2,3,5,7,11\}$
+- $T = \{1,3,4,7,8,12\}$
 
-3. $(R \setminus S) \cup (S \setminus R)$
+1. Calcule:
+   - $\overline{S}$
+   - $\overline{T}$
 
----
+2. Calcule:
+   $\overline{S \cup T}$
 
-## I) Complemento
-
-**Universo:**
-
-- $U = \lbrace 1,2,3,4,5,6,7,8,9,10 \rbrace$
-
-**Conjuntos:**
-
-- $T = \lbrace 2,4,6,8,10 \rbrace$
-- $V = \lbrace 1,2,3,5,8 \rbrace$
-
-1. $T^c$
-
-2. $V^c$
-
-3. $(T \cap V)^c$
+3. Verifique que:
+   $\overline{S \cup T} = \overline{S} \cap \overline{T}$

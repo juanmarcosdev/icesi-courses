@@ -1,155 +1,114 @@
-# Conjuntos — Ejercicios (Solución)
-
-Estas actividades practican: pertenencia, subconjuntos, cardinalidad, producto cartesiano, conjunto potencia, unión, intersección, diferencia y complemento.
-
-## Notación
-
-- $x \in A$: “$x$ pertenece a $A$”.
-- $A \subseteq B$: $A$ es subconjunto de $B$.
-- $A \subset B$: $A$ es subconjunto **propio** de $B$.
-- $|A|$: cardinalidad de $A$.
-- $A \times B$: producto cartesiano.
-- $\mathcal{P}(A)$: conjunto potencia.
-- $A^c = U \setminus A$: complemento de $A$ en el universo $U$.
+# Conjuntos — Soluciones
 
 ---
 
-## A) Pertenencia / No pertenencia
+## A)
 
-**Defina:**
+1.
+$A = \{-4,-2,0,2,4,6\}$
 
-- $A = \lbrace -2, 0, 1, 3, 5 \rbrace$
-- $B = \lbrace x \in \mathbb{Z} \mid 1 \le x \le 4 \rbrace$
+2.
+- $4 \in A$ → Verdadero
+- $5 \in A$ → Falso
+- $-1 \in B$ → Verdadero
+- $6 \in B$ → Falso
 
-**Determine si es verdadero o falso:**
-
-1. $3 \in A$ → **Verdadero**
-2. $2 \in A$ → **Falso**
-3. $0 \in B$ → **Falso**
-4. $4 \in B$ → **Verdadero**
-5. $-2 \in B$ → **Falso**
-
----
-
-## B) Subconjunto y subconjunto propio
-
-**Defina:**
-
-- $C = \lbrace 1,2 \rbrace$
-- $D = \lbrace 1,2,3 \rbrace$
-- $E = \lbrace 2,1 \rbrace$
-- $F = \lbrace 1,2,3,4 \rbrace$
-
-**Determine si es verdadero o falso:**
-
-1. $C \subseteq D$ → **Verdadero**
-2. $D \subset C$ → **Falso**
-3. $C \subset D$ → **Verdadero**
-4. $D \subseteq F$ → **Verdadero**
-5. $D \subseteq D$ → **Verdadero**
+3.
+$A \cap B = \{0,2,4\}$
 
 ---
 
-## C) Cardinalidad
+## B)
 
-1. Sea $G = \lbrace a,b,c,d \rbrace$. Calcule $|G|$. → **Respuesta:** $|G| = 4$.
-
-2. Sea  
-   $H = \lbrace x \in \mathbb{Z} \mid -2 \le x \le 3 \rbrace$.  
-   Calcule $|H|$. → **Respuesta:** $|H| = 6$.
-
-3. Sea  
-   $I = \lbrace n \in \mathbb{N} \mid 1 \le n \le 10 \text{ y } n \text{ es múltiplo de } 3 \rbrace$.  
-   Calcule $|I|$. → **Respuesta:** $|I| = 3$.
+1. $C = D$ → Verdadero  
+2. $E \subset C$ → Verdadero  
+3. $E \subseteq D$ → Verdadero  
+4. $C \subset F$ → Verdadero  
+5. $F \subseteq C$ → Falso  
 
 ---
 
-## D) Producto cartesiano
+## C)
 
-**Defina:**
+$G \cap H = \{2,4,6,8\}$  
+→ $|G \cap H| = 4$
 
-- $J = \lbrace 0,1 \rbrace$
-- $K = \lbrace a,b,c \rbrace$
-- $L = \lbrace 2,4 \rbrace$
+$G \cup H = \{1,2,3,4,5,6,7,8,9,10,12\}$  
+→ $|G \cup H| = 11$
 
-1. Escriba $J \times K$. → **Respuesta:** $\lbrace (0,a),(0,b),(0,c),(1,a),(1,b),(1,c) \rbrace$.
+$(G \cup H) \setminus I = \{2,4,6,8,10,12\}$  
+→ cardinalidad = 6
 
-2. ¿Cuál es $|J \times K|$? → **Respuesta:** $|J \times K| = 6$.
+Verificación:
 
-3. Escriba $K \times J$. → **Respuesta:** $\lbrace (a,0),(a,1),(b,0),(b,1),(c,0),(c,1) \rbrace$.
+$|G| = 9$  
+$|H| = 6$  
+$|G \cap H| = 4$
 
-4. Escriba $L \times J$. → **Respuesta:** $\lbrace (2,0),(2,1),(4,0),(4,1) \rbrace$.
-
-5. Determine si $(a,1) \in K \times J$. → **Respuesta:** **Sí**.
-
----
-
-## E) Conjunto potencia
-
-**Defina:**
-
-- $M = \lbrace p,q \rbrace$
-- $N = \lbrace 1,2,3 \rbrace$
-
-1. Escriba $\mathcal{P}(M)$. → **Respuesta:** $\lbrace \varnothing, \lbrace p \rbrace, \lbrace q \rbrace, \lbrace p,q \rbrace \rbrace$.
-
-2. Calcule $|\mathcal{P}(M)|$. → **Respuesta:** $|\mathcal{P}(M)| = 4$.
-
-3. Calcule $|\mathcal{P}(N)|$. → **Respuesta:** $|\mathcal{P}(N)| = 8$.
-
-4. Determine si $\lbrace 1,3 \rbrace \in \mathcal{P}(N)$. → **Respuesta:** **Verdadero**.
-
-5. Determine si $\lbrace 4 \rbrace \in \mathcal{P}(N)$. → **Respuesta:** **Falso**.
+$9 + 6 - 4 = 11$ ✔
 
 ---
 
-## F) Unión
+## D)
 
-**Defina:**
+$J \times K =$
 
-- $P = \lbrace 1,2,4,7 \rbrace$
-- $Q = \lbrace 2,3,7,8 \rbrace$
+$\{$
+$(1,a),(1,b),(1,c),(1,d),$
+$(2,a),(2,b),(2,c),(2,d),$
+$(3,a),(3,b),(3,c),(3,d)$
+$\}$
 
-1. $P \cup Q$ → **Respuesta:** $\lbrace 1,2,3,4,7,8 \rbrace$.
-2. $|P \cup Q|$ → **Respuesta:** $6$.
-3. $(P \cup Q) \setminus P$ → **Respuesta:** $\lbrace 3,8 \rbrace$.
+$K \times J =$
 
----
+$\{$
+$(a,1),(a,2),(a,3),$
+$(b,1),(b,2),(b,3),$
+$(c,1),(c,2),(c,3),$
+$(d,1),(d,2),(d,3)$
+$\}$
 
-## G) Intersección
-
-Con los conjuntos $P$ y $Q$ anteriores:
-
-1. $P \cap Q$ → **Respuesta:** $\lbrace 2,7 \rbrace$.
-2. $|P \cap Q|$ → **Respuesta:** $2$.
-3. $P \cap (Q \setminus \lbrace 7 \rbrace)$ → **Respuesta:** $\lbrace 2 \rbrace$.
-
----
-
-## H) Diferencia
-
-**Defina:**
-
-- $R = \lbrace 1,2,3,4,5,6 \rbrace$
-- $S = \lbrace 2,4,6,8 \rbrace$
-
-1. $R \setminus S$ → **Respuesta:** $\lbrace 1,3,5 \rbrace$.
-2. $S \setminus R$ → **Respuesta:** $\lbrace 8 \rbrace$.
-3. $(R \setminus S) \cup (S \setminus R)$ → **Respuesta:** $\lbrace 1,3,5,8 \rbrace$.
+$L = \{(1,2),(1,3),(2,3)\}$
 
 ---
 
-## I) Complemento
+## E)
 
-**Universo:**
+$|\mathcal{P}(M)| = 2^3 = 8$
 
-- $U = \lbrace 1,2,3,4,5,6,7,8,9,10 \rbrace$
+Subconjuntos de 2 elementos:
 
-**Conjuntos:**
+$\{p,q\}, \{p,r\}, \{q,r\}$
 
-- $T = \lbrace 2,4,6,8,10 \rbrace$
-- $V = \lbrace 1,2,3,5,8 \rbrace$
+$\{p,r\} \in \mathcal{P}(M)$ → Verdadero  
+$\{p,q,r,s\} \in \mathcal{P}(M)$ → Falso  
 
-1. $\overline{T}$ → **Respuesta:** $\lbrace 1,3,5,7,9 \rbrace$.
-2. $\overline{V}$ → **Respuesta:** $\lbrace 4,6,7,9,10 \rbrace$.
-3. $\overline{(T \cap V)}$ → **Respuesta:** $\lbrace 1,3,4,5,6,7,9,10 \rbrace$.
+---
+
+## F)
+
+$P \cup Q = \{1,2,3,4,5,6,7,8,9\}$
+
+$P \cap Q = \{2,9\}$
+
+$P \setminus Q = \{1,3,5,7\}$
+
+$(P \cup Q) \setminus R = \{2,4,6,8,9\}$
+
+$Q \cup R = \{1,2,3,4,5,6,7,8,9\}$
+
+$P \cap (Q \cup R) = \{1,2,3,5,7,9\}$
+
+---
+
+## G)
+
+$\overline{S} = \{1,4,6,8,9,10,12\}$
+
+$\overline{T} = \{2,5,6,9,10,11\}$
+
+$S \cup T = \{1,2,3,4,5,7,8,11,12\}$
+
+$\overline{S \cup T} = \{6,9,10\}$
+
+$\overline{S} \cap \overline{T} = \{6,9,10\}$ ✔
