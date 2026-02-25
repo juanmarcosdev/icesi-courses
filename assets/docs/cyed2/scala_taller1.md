@@ -110,7 +110,7 @@ $
 
 ---
 
-### 6) Producto de naturales (MODIFICADO)
+### 6) Producto de naturales
 
 En este punto, defina el producto siguiendo la idea:
 
