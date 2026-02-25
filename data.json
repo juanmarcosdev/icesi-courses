@@ -120,9 +120,14 @@
             "titulo": "Semana 4",
             "sesiones": [
               {
-                "titulo": "Scala: Estructura y sintaxis",
+                "titulo": "Scala: Estructura",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed2/scala_estructura.md"
+              },
+              {
+                "titulo": "Scala: Taller 1",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed2/scala_taller1.md"
               }
             ]
           }

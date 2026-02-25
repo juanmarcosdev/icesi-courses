@@ -161,20 +161,6 @@ println(y.toInt)  // 11 (se elimina la parte decimal)
 
 ---
 
-## ✅ Resumen
-
-Un programa básico en Scala normalmente incluye:
-
-- Un `package`
-- Un `object Main`
-- Un método `main`
-- Otras funciones definidas dentro del mismo `object`
-- Uso de utilidades matemáticas mediante `scala.math`
-- `scala.math.pow` devuelve `Double`
-- Se puede usar `.toInt` para convertir a entero si es necesario
-
----
-
 ## Ejemplo completo
 
 ```scala
