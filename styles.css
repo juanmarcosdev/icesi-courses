@@ -231,23 +231,40 @@ iframe {
   margin: 22px 0;
 }
 
-/* Código */
+/* Inline code */
 #md-viewer code {
-  background: #f3f4f6;
+  background: #f1f5f9;
+  color: #0f172a;
   padding: 2px 6px;
   border-radius: 6px;
+  border: 1px solid #e2e8f0;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: 0.95em;
 }
 
+/* Code blocks */
 #md-viewer pre {
-  background: #0b1020;
-  color: #e5e7eb;
+  background: #f8fafc;
+  color: #0f172a;
+  border: 1px solid #e2e8f0;
+  border-left: 6px solid var(--icesi-blue);
   padding: 14px 16px;
   border-radius: 10px;
   overflow-x: auto;
-  margin: 12px 0 16px;
+  margin: 14px 0 18px;
+  line-height: 1.5;
 }
+
+/* Quita el "doble fondo" (porque marked genera pre > code) */
+#md-viewer pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: inherit;
+  display: block;
+  white-space: pre; /* respeta indentación */
+}
+
 
 /* Bloques tipo cita */
 #md-viewer blockquote {
