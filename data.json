@@ -115,68 +115,78 @@
                 "archivo": "assets/docs/cyed2/programacion_funcional.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Semana 4",
+            "sesiones": [
+              {
+                "titulo": "Scala: Estructura y sintaxis",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed2/scala_estructura.md"
+              }
+            ]
           }
         ]
       }
     ]
   },
   {
-  "id": "curso-cyed3",
-  "titulo": "Computation and Discrete Structures III",
-  "unidades": [
-    {
-      "titulo": "Unit 1: Regular Languages and Finite-State Automatons",
-      "semanas": [
-        {
-          "titulo": "Week 1",
-          "sesiones": [
-            {
-              "titulo": "Alphabets, Strings and Languages",
-              "tipo": "pdf",
-              "archivo": "assets/docs/cyed3/alphabets_strings_and_languages.pdf"
-            }
-          ]
-        },
-        {
-          "titulo": "Week 2",
-          "sesiones": [
-            {
-              "titulo": "Regular Languages and Regular Expressions",
-              "tipo": "pdf",
-              "archivo": "assets/docs/cyed3/regular_languages_and_regular_expressions.pdf"
-            }
-          ]
-        },
-        {
-          "titulo": "Week 3",
-          "sesiones": [
-            {
-              "titulo": "Finite State Machines (Automata)",
-              "tipo": "pdf",
-              "archivo": "assets/docs/cyed3/finite_state_machines.pdf"
-            }
-          ]
-        },
-        {
-          "titulo": "Week 4",
-          "sesiones": [
-            {
-              "titulo": "String Manipulation and Formatting",
-              "tipo": "pdf",
-              "archivo": "assets/docs/cyed3/string_manipulation_and_formatting.pdf"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titulo": "Unit 2: Grammars and Languages",
-      "semanas": []
-    },
-    {
-      "titulo": "Unit 3: Turing Machines and Applications",
-      "semanas": []
-    }
-  ]
-}
+    "id": "curso-cyed3",
+    "titulo": "Computation and Discrete Structures III",
+    "unidades": [
+      {
+        "titulo": "Unit 1: Regular Languages and Finite-State Automatons",
+        "semanas": [
+          {
+            "titulo": "Week 1",
+            "sesiones": [
+              {
+                "titulo": "Alphabets, Strings and Languages",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/alphabets_strings_and_languages.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Week 2",
+            "sesiones": [
+              {
+                "titulo": "Regular Languages and Regular Expressions",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/regular_languages_and_regular_expressions.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Week 3",
+            "sesiones": [
+              {
+                "titulo": "Finite State Machines (Automata)",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/finite_state_machines.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Week 4",
+            "sesiones": [
+              {
+                "titulo": "String Manipulation and Formatting",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/string_manipulation_and_formatting.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Unit 2: Grammars and Languages",
+        "semanas": []
+      },
+      {
+        "titulo": "Unit 3: Turing Machines and Applications",
+        "semanas": []
+      }
+    ]
+  }
 ]

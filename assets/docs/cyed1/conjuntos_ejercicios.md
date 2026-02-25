@@ -59,7 +59,7 @@ $|G \cup H| = |G| + |H| - |G \cap H|$
 
 ---
 
-## D) Producto cartesiano (explícito)
+## D) Producto cartesiano
 
 Sea:
 
