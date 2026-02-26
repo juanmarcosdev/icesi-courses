@@ -42,7 +42,7 @@ Given:
 word = "Programming"
 ```
 
-Extract every second character.
+Extract every two characters.
 
 ---
 
@@ -254,15 +254,6 @@ So it prints with 2 decimal places.
 
 ---
 
-### 10.3 Conversion flags
-
-Use `!r` conversion in an f-string with:
-
-```python
-text = "hello"
-```
-
----
 
 ## Part 11 — Template Strings
 
