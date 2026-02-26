@@ -45,7 +45,7 @@ public class Main {
 
         numbers.add(1);
         numbers.add(2);
-        numbers.add(2); // duplicado
+        numbers.add(2);
 
         System.out.println(numbers);
     }
@@ -85,7 +85,7 @@ Set<String> names = new HashSet<>();
 names.add("Ana");
 names.add("Luis");
 names.add("Carlos");
-names.add("Ana"); // duplicado
+names.add("Ana");
 
 System.out.println(names);
 ```
@@ -203,10 +203,10 @@ Estas operaciones funcionan igual en `HashSet`, `LinkedHashSet` y `TreeSet`:
 ```java
 set.add(element);        // Agregar
 set.remove(element);     // Eliminar
-set.contains(element);   // Buscar
+set.contains(element);   // Si el conjunto tiene el elemento o no
 set.size();              // Tamaño
-set.isEmpty();           // Vacío
-set.clear();             // Limpiar
+set.isEmpty();           // Si el conjunto es vacío o no
+set.clear();             // Limpiar (volver un conjunto vacío)
 ```
 
 ---
@@ -221,9 +221,9 @@ Java no tiene métodos directos para unión, intersección o diferencia, pero se
 Set<Integer> a = new HashSet<>(Set.of(1,2,3));
 Set<Integer> b = new HashSet<>(Set.of(3,4,5));
 
-a.addAll(b);  // unión
+a.addAll(b); 
 
-System.out.println(a);  // [1,2,3,4,5]
+System.out.println(a);  //[1,2,3,4,5]
 ```
 
 ## Intersección
@@ -234,7 +234,7 @@ Set<Integer> b = new HashSet<>(Set.of(2,3,4));
 
 a.retainAll(b);
 
-System.out.println(a); // [2,3]
+System.out.println(a); //[2,3]
 ```
 
 ## Diferencia

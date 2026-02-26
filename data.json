@@ -194,6 +194,16 @@
                 "titulo": "Regular Languages and Regular Expressions",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed3/regular_languages_and_regular_expressions.pdf"
+              },
+              {
+                "titulo": "Quiz 1",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/quiz1.pdf"
+              },
+              {
+                "titulo": "Quiz 1 - Solution",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/quiz1sol.pdf"
               }
             ]
           },
@@ -214,6 +224,11 @@
                 "titulo": "String Manipulation and Formatting",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed3/string_manipulation_and_formatting.pdf"
+              },
+              {
+                "titulo": "Regular Grammars",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/regular_grammars.pdf"
               }
             ]
           }
