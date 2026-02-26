@@ -226,6 +226,11 @@
                 "archivo": "assets/docs/cyed3/string_manipulation_and_formatting.pdf"
               },
               {
+                "titulo": "String Manipulation and Formatting - Colab",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed3/strings_colab.md"
+              },
+              {
                 "titulo": "String Manipulation and Formatting - Workshop in Python",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed3/string_manipulation_formatting_exercises.md"
