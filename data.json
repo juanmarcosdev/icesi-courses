@@ -7,12 +7,42 @@
         "titulo": "Unidad 1: Métodos de demostración",
         "semanas": [
           {
-            "titulo": "Semanas 1 y 2",
+            "titulo": "Semana 1",
             "sesiones": [
               {
                 "titulo": "Técnicas de demostración",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed1/tecnicas_de_demostracion.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Semana 2",
+            "sesiones": [
+              {
+                "titulo": "Quiz 1",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/quiz1.pdf"
+              },
+              {
+                "titulo": "Quiz 1 - Solución",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/quiz1sol.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Semana 3",
+            "sesiones": [
+              {
+                "titulo": "Seguimiento 1",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/seg1.pdf"
+              },
+              {
+                "titulo": "Seguimiento 1 - Solución",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/seg1sol.pdf"
               }
             ]
           }
@@ -25,7 +55,7 @@
             "titulo": "Semana 3",
             "sesiones": [
               {
-                "titulo": "Conjuntos (Diapositivas)",
+                "titulo": "Conjuntos",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed1/conjuntos.pdf"
               }
@@ -43,6 +73,11 @@
                 "titulo": "Conjuntos: Ejercicios (con respuestas)",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed1/conjuntos_ejercicios_respuestas.md"
+              },
+              {
+                "titulo": "Conjuntos en Java (Interfaz Set)",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed1/interface_set_java.md"
               }
             ]
           }
