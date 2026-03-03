@@ -256,6 +256,21 @@
                 "archivo": "assets/docs/cyed3/regular_grammars.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Week 4",
+            "sesiones": [
+              {
+                "titulo": "Regex in Python",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/regex_python.pdf"
+              },
+              {
+                "titulo": "Regex - Colab",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed3/regex_colab.md"
+              }
+            ]
           }
         ]
       },
