@@ -80,6 +80,16 @@
                 "archivo": "assets/docs/cyed1/interface_set_java.md"
               }
             ]
+          },
+          {
+            "titulo": "Semana 5",
+            "sesiones": [
+              {
+                "titulo": "Funciones",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/funciones.pdf"
+              }
+            ]
           }
         ]
       },
