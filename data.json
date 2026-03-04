@@ -173,6 +173,11 @@
                 "titulo": "Scala: Taller 1",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed2/scala_taller1.md"
+              },
+              {
+                "titulo": "Listas y Recursión Estructural",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/listas_recursion_estructural.pdf"
               }
             ]
           }
