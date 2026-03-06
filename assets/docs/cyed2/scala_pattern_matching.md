@@ -1,8 +1,7 @@
 # Pattern Matching en Scala 
 
 Esta guía explica **pattern matching en Scala** paso a paso, con
-ejemplos claros, relación con **recursividad**, diagramas conceptuales
-de listas y ejercicios para practicar.
+ejemplos claros, relación con **recursividad** y ejercicios para practicar.
 
 El objetivo es que puedas **copiar los ejemplos directamente en un
 archivo `Main.scala`** y ejecutarlos.
@@ -172,31 +171,34 @@ listas `::`.
 
 ------------------------------------------------------------------------
 
-# 7. Ejemplo clásico con recursividad: suma de una lista
+# 7. Ejemplo clásico con recursividad: construir un String a partir de una lista
 
-``` scala
-def suma(xs: List[Int]): Int =
+Supongamos que tenemos una lista de palabras y queremos **construir un solo String donde cada palabra esté separada por un espacio**.
+
+```scala
+def concatenar(xs: List[String]): String =
   xs match {
-    case Nil => 0
-    case x :: ys => x + suma(ys)
+    case Nil => ""
+    case x :: ys => x + " " + concatenar(ys)
   }
 
 @main def runEjemplo3() =
-  println(suma(List(1,2,3,4)))
+  println(concatenar(List("Scala","es","muy","potente")))
 ```
 
 Evaluación conceptual:
 
-    suma(List(1,2,3,4))
-    1 + suma(List(2,3,4))
-    1 + 2 + suma(List(3,4))
-    1 + 2 + 3 + suma(List(4))
-    1 + 2 + 3 + 4 + suma(Nil)
-    1 + 2 + 3 + 4 + 0
+    concatenar(List("Scala","es","muy","potente"))
+
+    "Scala " + concatenar(List("es","muy","potente"))
+    "Scala " + "es " + concatenar(List("muy","potente"))
+    "Scala " + "es " + "muy " + concatenar(List("potente"))
+    "Scala " + "es " + "muy " + "potente " + concatenar(Nil)
+    "Scala " + "es " + "muy " + "potente " + ""
 
 Resultado:
 
-    10
+    "Scala es muy potente "
 
 ------------------------------------------------------------------------
 
@@ -230,80 +232,8 @@ Resultado:
 
 ------------------------------------------------------------------------
 
-# 9. Encontrar el último elemento de una lista
 
-``` scala
-def ultimo(xs: List[Int]): Int =
-  xs match {
-    case List(x) => x
-    case _ :: ys => ultimo(ys)
-  }
-
-@main def runEjemplo5() =
-  println(ultimo(List(3,7,9,10)))
-```
-
-Explicación:
-
--   `List(x)` coincide con lista de **un solo elemento**
--   `_ :: ys` elimina el primero y continúa
-
-------------------------------------------------------------------------
-
-# 10. Obtener todos los elementos excepto el último (`init`)
-
-``` scala
-def init(xs: List[Int]): List[Int] =
-  xs match {
-    case Nil => Nil
-    case List(x) => Nil
-    case x :: ys => x :: init(ys)
-  }
-
-@main def runEjemplo6() =
-  println(init(List(1,2,3,4)))
-```
-
-Resultado:
-
-    List(1,2,3)
-
-------------------------------------------------------------------------
-
-# 11. Calcular la longitud de una lista
-
-``` scala
-def longitud(xs: List[Int]): Int =
-  xs match {
-    case Nil => 0
-    case _ :: ys => 1 + longitud(ys)
-  }
-
-@main def runEjemplo7() =
-  println(longitud(List(10,20,30,40)))
-```
-
-------------------------------------------------------------------------
-
-# 12. Buscar un elemento en una lista
-
-``` scala
-def contiene(xs: List[Int], valor: Int): Boolean =
-  xs match {
-    case Nil => false
-    case x :: ys =>
-      if x == valor then true
-      else contiene(ys, valor)
-  }
-
-@main def runEjemplo8() =
-  println(contiene(List(3,7,9,11),7))
-  println(contiene(List(3,7,9,11),5))
-```
-
-------------------------------------------------------------------------
-
-# 13. Resumen de patrones comunes
+# 9. Resumen de patrones comunes
 
   Patrón       Significado
   ------------ ----------------------
@@ -316,7 +246,7 @@ def contiene(xs: List[Int], valor: Int): Boolean =
 
 ------------------------------------------------------------------------
 
-# 14. Ejercicios propuestos
+# 10. Ejercicios propuestos
 
 ### Ejercicio 1
 
