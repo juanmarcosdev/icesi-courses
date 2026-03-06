@@ -122,7 +122,7 @@ $
 
 - Si $(x = 0)$ **o** $(y = 0)$, devolver $(0)$.
 
-**Caso base recomendado (para simplificar y evitar más recursión):**
+**Caso base recomendado:**
 
 - Si $(y = 1)$, devolver $(x)$.  
   (Análogamente podrías manejar $(x = 1)$ devolviendo $(y)$, pero no es obligatorio si ya controlas $(y)$).

@@ -180,6 +180,16 @@
                 "archivo": "assets/docs/cyed2/listas_recursion_estructural.pdf"
               }
             ]
+          },
+                    {
+            "titulo": "Semana 5",
+            "sesiones": [
+              {
+                "titulo": "Scala: Pattern Matching",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed2/scala_pattern_matching.md"
+              }
+            ]
           }
         ]
       }

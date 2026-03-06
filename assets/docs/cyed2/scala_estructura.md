@@ -156,7 +156,7 @@ Ejemplo:
 val x = scala.math.pow(2, 3)      // 8.0
 val y = scala.math.pow(2, 3.5)    // 11.313...
 
-println(y.toInt)  // 11 (se elimina la parte decimal)
+println(y.toInt)  // 11 (se elimina lo que hay despues de la coma)
 ```
 
 ---
