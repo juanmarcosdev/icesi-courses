@@ -235,24 +235,25 @@ Resultado:
 
 # 9. Resumen de patrones comunes
 
-  Patrón       Significado
-  ------------ ----------------------
-  `Nil`        lista vacía
-  `x :: ys`    cabeza + cola
-  `_ :: ys`    ignorar cabeza
-  `x :: Nil`   lista de un elemento
-  `List(x)`    lista de un elemento
-  `_`          comodín
+| Patrón   | Significado            |
+|----------|------------------------|
+| `Nil`    | lista vacía            |
+| `x :: ys`| cabeza + cola          |
+| `_ :: ys`| ignorar cabeza         |
+| `x :: Nil`| lista de un elemento  |
+| `List(x)`| lista de un elemento   |
+| `_`      | comodín                |
 
 ------------------------------------------------------------------------
 
 # 10. Ejercicios propuestos
 
+
 ### Ejercicio 1
 
 Implementa una función que **cuente cuántos elementos tiene una lista**.
 
-``` scala
+```scala
 def contar(xs: List[Int]): Int =
   ???
 ```
@@ -263,7 +264,7 @@ def contar(xs: List[Int]): Int =
 
 Implementa una función que **sume todos los números de una lista**.
 
-``` scala
+```scala
 def sumaLista(xs: List[Int]): Int =
   ???
 ```
@@ -272,10 +273,10 @@ def sumaLista(xs: List[Int]): Int =
 
 ### Ejercicio 3
 
-Implementa una función que **devuelva el último elemento de una lista**.
+Implementa una función que **busque un elemento en una lista y devuelva `true` si existe y `false` en caso contrario**.
 
-``` scala
-def ultimoElemento(xs: List[Int]): Int =
+```scala
+def buscar(xs: List[Int], v: Int): Boolean =
   ???
 ```
 
@@ -283,27 +284,49 @@ def ultimoElemento(xs: List[Int]): Int =
 
 ### Ejercicio 4
 
+Implementa una función que **devuelva el último elemento de una lista**.
+
+```scala
+def ultimoElemento(xs: List[Int]): Int =
+  ???
+```
+
+------------------------------------------------------------------------
+
+### Ejercicio 5
+
 Implementa una función que **elimine el primer elemento de una lista**.
 
-``` scala
+```scala
 def tailLista(xs: List[Int]): List[Int] =
   ???
 ```
 
 ------------------------------------------------------------------------
 
-### Ejercicio 5 (más avanzado)
+### Ejercicio 6
+
+Implementa una función que **elimine el último elemento de una lista**.
+
+```scala
+def eliminarUltimo(xs: List[Int]): List[Int] =
+  ???
+```
+
+------------------------------------------------------------------------
+
+### Ejercicio 7
 
 Implementa una función que **invierta una lista**.
 
-``` scala
+```scala
 def reverse(xs: List[Int]): List[Int] =
   ???
 ```
 
 ------------------------------------------------------------------------
 
-# 15. Idea clave
+# 11. Idea clave
 
 Las listas en Scala son **estructuras recursivas**:
 
