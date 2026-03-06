@@ -295,17 +295,6 @@ def ultimoElemento(xs: List[Int]): Int =
 
 ### Ejercicio 5
 
-Implementa una función que **elimine el primer elemento de una lista**.
-
-```scala
-def tailLista(xs: List[Int]): List[Int] =
-  ???
-```
-
-------------------------------------------------------------------------
-
-### Ejercicio 6
-
 Implementa una función que **elimine el último elemento de una lista**.
 
 ```scala
@@ -315,12 +304,12 @@ def eliminarUltimo(xs: List[Int]): List[Int] =
 
 ------------------------------------------------------------------------
 
-### Ejercicio 7
+### Ejercicio 6
 
 Implementa una función que **invierta una lista**.
 
 ```scala
-def reverse(xs: List[Int]): List[Int] =
+def reversarLista(xs: List[Int]): List[Int] =
   ???
 ```
 
