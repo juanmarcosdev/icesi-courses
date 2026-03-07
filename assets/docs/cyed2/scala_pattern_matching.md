@@ -254,7 +254,7 @@ Resultado:
 Implementa una función que **cuente cuántos elementos tiene una lista**.
 
 ```scala
-def contar(xs: List[Int]): Int =
+def contar(lista: List[Int]): Int =
   ???
 ```
 
@@ -265,7 +265,7 @@ def contar(xs: List[Int]): Int =
 Implementa una función que **sume todos los números de una lista**.
 
 ```scala
-def sumaLista(xs: List[Int]): Int =
+def sumaLista(lista: List[Int]): Int =
   ???
 ```
 
@@ -276,7 +276,7 @@ def sumaLista(xs: List[Int]): Int =
 Implementa una función que **busque un elemento en una lista y devuelva `true` si existe y `false` en caso contrario**.
 
 ```scala
-def buscar(xs: List[Int], v: Int): Boolean =
+def buscar(lista: List[Int], elem: Int): Boolean =
   ???
 ```
 
@@ -287,7 +287,7 @@ def buscar(xs: List[Int], v: Int): Boolean =
 Implementa una función que **devuelva el último elemento de una lista**.
 
 ```scala
-def ultimoElemento(xs: List[Int]): Int =
+def ultimoElemento(lista: List[Int]): Int =
   ???
 ```
 
@@ -298,7 +298,7 @@ def ultimoElemento(xs: List[Int]): Int =
 Implementa una función que **elimine el último elemento de una lista**.
 
 ```scala
-def eliminarUltimo(xs: List[Int]): List[Int] =
+def eliminarUltimo(lista: List[Int]): List[Int] =
   ???
 ```
 
@@ -309,7 +309,7 @@ def eliminarUltimo(xs: List[Int]): List[Int] =
 Implementa una función que **invierta una lista**.
 
 ```scala
-def reversarLista(xs: List[Int]): List[Int] =
+def reversarLista(lista: List[Int]): List[Int] =
   ???
 ```
 

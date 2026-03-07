@@ -181,13 +181,18 @@
               }
             ]
           },
-                    {
+          {
             "titulo": "Semana 5",
             "sesiones": [
               {
                 "titulo": "Scala: Pattern Matching",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed2/scala_pattern_matching.md"
+              },
+              {
+                "titulo": "Scala: Pattern Matching (Solución Ejercicios)",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed2/scala_pattern_matching_sol.md"
               }
             ]
           }
