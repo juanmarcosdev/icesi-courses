@@ -20,7 +20,7 @@
             "titulo": "Semana 2",
             "sesiones": [
               {
-                "titulo": "Quiz 1",
+                "titulo": "Quiz 1 (Reglas de inferencia)",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed1/quiz1.pdf"
               },
@@ -35,7 +35,7 @@
             "titulo": "Semana 3",
             "sesiones": [
               {
-                "titulo": "Seguimiento 1",
+                "titulo": "Seguimiento 1 (Técnicas de demostración y demostraciones directas/indirectas)",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed1/seg1.pdf"
               },
@@ -85,9 +85,24 @@
             "titulo": "Semana 5",
             "sesiones": [
               {
-                "titulo": "Funciones",
+                "titulo": "Relaciones y Funciones",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed1/funciones.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Semana 6",
+            "sesiones": [
+              {
+                "titulo": "Quiz 2 (Conjuntos)",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/quiz2.pdf"
+              },
+              {
+                "titulo": "Quiz 2 - Solución",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/quiz2sol.pdf"
               }
             ]
           }
