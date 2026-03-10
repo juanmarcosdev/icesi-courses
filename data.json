@@ -269,11 +269,6 @@
                 "titulo": "String Manipulation and Formatting - Workshop in Python (Solution)",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed3/string_manipulation_formatting_exercises_solutions.md"
-              },
-              {
-                "titulo": "Regular Grammars",
-                "tipo": "pdf",
-                "archivo": "assets/docs/cyed3/regular_grammars.pdf"
               }
             ]
           },
@@ -296,7 +291,18 @@
       },
       {
         "titulo": "Unit 2: Grammars and Languages",
-        "semanas": []
+        "semanas": [
+                    {
+            "titulo": "Week 7",
+            "sesiones": [
+              {
+                "titulo": "Regular Grammars",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/regular_grammars.pdf"
+              }
+            ]
+          }
+        ]
       },
       {
         "titulo": "Unit 3: Turing Machines and Applications",
