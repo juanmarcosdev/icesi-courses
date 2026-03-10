@@ -301,6 +301,21 @@
                 "archivo": "assets/docs/cyed3/regex_colab.md"
               }
             ]
+          },
+                    {
+            "titulo": "Week 6",
+            "sesiones": [
+              {
+                "titulo": "Pandas",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed3/pandas_colab.md"
+              },
+              {
+                "titulo": "Pyformlang",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed3/pyformlang_colab.md"
+              }
+            ]
           }
         ]
       },
