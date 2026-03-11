@@ -128,11 +128,48 @@
     "unidades": [
       {
         "titulo": "Unidad 1: Relaciones de equivalencia y conjuntos parcialmente ordenados",
-        "semanas": []
+        "semanas": [
+        {
+            "titulo": "Semanas 1, 2, 3, 4",
+            "sesiones": [
+              {
+                "titulo": "Relaciones de equivalencia",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/relaciones_de_equivalencia.pdf"
+              }
+            ]
+        },
+        {
+            "titulo": "Semana 5",
+            "sesiones": [
+              {
+                "titulo": "Seguimiento 1 - Relaciones de equivalencia y Recursividad",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/seg1.pdf"
+              },
+              {
+                "titulo": "Seguimiento 1 - Solución",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/seg1sol.pdf"
+              }
+            ]
+        }
+        ]
       },
       {
         "titulo": "Unidad 2: Inducción y recursividad",
-        "semanas": []
+        "semanas": [
+          {
+            "titulo": "Semana 6",
+            "sesiones": [
+              {
+                "titulo": "Inducción Matemática",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/induccion_matematica.pdf"
+              }
+            ]
+          }
+        ]
       },
       {
         "titulo": "Unidad 3: Introducción a la teoría de números",
@@ -188,6 +225,11 @@
                 "titulo": "Scala: Taller 1",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed2/scala_taller1.md"
+              },
+              {
+                "titulo": "Scala: Taller 1 - Solución",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed2/scala_taller1_sol.md"
               },
               {
                 "titulo": "Listas y Recursión Estructural",
