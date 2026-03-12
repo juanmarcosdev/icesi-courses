@@ -96,8 +96,8 @@ def sumaCuadrados(lista: List[Int]): Int = {
   @tailrec
   def loop(lista: List[Int], acum: Int): Int =
     lista match {
-      case Nil     => acum               // caso base: devuelve el acumulado total
-      case x :: xs => loop(xs, acum + (x * x))  // operación dentro del argumento
+      case Nil     => acum               //caso base: devuelve el acumulado total
+      case x :: xs => loop(xs, acum + (x * x))  //operación dentro del argumento
     }
 
   loop(lista, 0)  // se invoca con el acumulador en 0
@@ -108,9 +108,12 @@ def sumaCuadrados(lista: List[Int]): Int = {
 
 ```
 loop(List(1,2,3), 0)
-loop(List(2,3),   0 + 1)   →  loop(List(2,3),   1)
-loop(List(3),     1 + 4)   →  loop(List(3),      5)
-loop(Nil,         5 + 9)   →  loop(Nil,          14)
+loop(List(2,3),   0 + 1)
+loop(List(2,3),   1)
+loop(List(3),     1 + 4)
+loop(List(3),      5)
+loop(Nil,         5 + 9)
+loop(Nil,          14)
 14   ← caso base, devuelve el acumulador
 ```
 
@@ -196,8 +199,8 @@ def eliminarUltimo(lista: List[Int]): List[Int] = {
   def loop(lista: List[Int], listaAux: List[Int]): List[Int] =
     lista match {
       case Nil      => listaAux
-      case x :: Nil => listaAux                          // descarta el último
-      case x :: xs  => loop(xs, listaAux ::: List(x))   // agrega al final del acumulador
+      case x :: Nil => listaAux                          //descarta el último
+      case x :: xs  => loop(xs, listaAux ::: List(x))   //agrega al final del acumulador
     }
 
   loop(lista, Nil)
@@ -243,5 +246,5 @@ Recursión de Cola:
 ### Consideraciones clave al trabajar con estructuras
 
 - **Operaciones conmutativas** (ej: `+`, `*`): el orden de acumulación no importa.
-- **Operaciones no conmutativas** (ej: construcción de listas con `::`): hay que usar `acum ::: List(x)` o invertir al final con `.reverse` para preservar el orden original.
+- **Operaciones no conmutativas** (ej: construcción de listas con `::`): hay que usar `acum ::: List(x)` o estrategias similares.
 - **La función pública** siempre delega en una función auxiliar interna (`loop` o `helper`) anotada con `@tailrec`, para que el usuario no tenga que pasar el acumulador manualmente.
