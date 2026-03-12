@@ -252,6 +252,16 @@
                 "archivo": "assets/docs/cyed2/scala_pattern_matching_sol.md"
               }
             ]
+          },
+                    {
+            "titulo": "Semana 6",
+            "sesiones": [
+              {
+                "titulo": "Scala: Recursión de Cola",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed2/recursion_cola.md"
+              }
+            ]
           }
         ]
       }
