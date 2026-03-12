@@ -103,6 +103,11 @@
                 "titulo": "Quiz 2 - Solución",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed1/quiz2sol.pdf"
+              },
+              {
+                "titulo": "Interface Set - Ejercicio",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed1/interface_set_ejercicio.md"
               }
             ]
           }
