@@ -1,4 +1,4 @@
-```markdown
+
 # Recursión de Cola (*Tail Recursion*) en Scala
 
 ***
@@ -245,4 +245,3 @@ Recursión de Cola:
 - **Operaciones conmutativas** (ej: `+`, `*`): el orden de acumulación no importa, se puede usar `x :: acum` sin problema.
 - **Operaciones no conmutativas** (ej: construcción de listas con `::`): hay que usar `acum ::: List(x)` o invertir al final con `.reverse` para preservar el orden original.
 - **La función pública** siempre delega en una función auxiliar interna (`loop` o `helper`) anotada con `@tailrec`, para que el usuario no tenga que pasar el acumulador manualmente.
-```
