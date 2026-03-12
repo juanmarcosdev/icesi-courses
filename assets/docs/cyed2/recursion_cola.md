@@ -20,8 +20,8 @@ def sumaLista(lista: List[Int]): Int =
 Si la lista tiene 100 000 elementos, Scala apilará 100 000 marcos en la JVM esperando resolver los `+` pendientes. El problema es la estructura del caso recursivo:
 
 ```
-operador  operando  llamado-recursivo
-   +         x       sumaLista(xs)
+operando  operador  llamado-recursivo
+   x         +       sumaLista(xs)
 ```
 
 El llamado recursivo **no es lo último** que se ejecuta; primero hay que resolver la recursión y luego aplicar el `+`. Eso obliga a mantener cada frame en memoria.
@@ -242,6 +242,6 @@ Recursión de Cola:
 
 ### Consideraciones clave al trabajar con estructuras
 
-- **Operaciones conmutativas** (ej: `+`, `*`): el orden de acumulación no importa, se puede usar `x :: acum` sin problema.
+- **Operaciones conmutativas** (ej: `+`, `*`): el orden de acumulación no importa.
 - **Operaciones no conmutativas** (ej: construcción de listas con `::`): hay que usar `acum ::: List(x)` o invertir al final con `.reverse` para preservar el orden original.
 - **La función pública** siempre delega en una función auxiliar interna (`loop` o `helper`) anotada con `@tailrec`, para que el usuario no tenga que pasar el acumulador manualmente.
