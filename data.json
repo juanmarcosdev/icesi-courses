@@ -371,6 +371,11 @@
                 "titulo": "Pyformlang",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed3/pyformlang_colab.md"
+              },
+              {
+                "titulo": "Epsilon Transition Automata",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/eTransition.pdf"
               }
             ]
           }
