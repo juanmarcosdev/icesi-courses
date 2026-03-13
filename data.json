@@ -265,6 +265,11 @@
                 "titulo": "Scala: Recursión de Cola",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed2/recursion_cola.md"
+              },
+                            {
+                "titulo": "Recursión de Cola - Taller",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed2/recursion_cola_taller.md"
               }
             ]
           }
