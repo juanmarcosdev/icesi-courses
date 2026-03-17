@@ -1,4 +1,3 @@
-```markdown
 # Taller: Implementaciones de `Set` en Java
 
 > Cada problema indica qué implementación de `Set` resulta más apropiada
@@ -396,4 +395,3 @@ public class KesimoUnico {
 > durante las inserciones, sin ningún paso extra.
 
 </details>
-```
