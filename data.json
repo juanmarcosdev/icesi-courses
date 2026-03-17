@@ -120,9 +120,9 @@
                 "archivo": "assets/docs/cyed1/interface_set_ejercicio_sol.md"
               },
               {
-                "titulo": "Analisis de Algoritmos Ejemplo 1",
+                "titulo": "Interface Set - Más Ejercicios",
                 "tipo": "markdown",
-                "archivo": "assets/docs/cyed1/analisis_algoritmos_ej1.md"
+                "archivo": "assets/docs/cyed1/ejercicios_repaso_set.md"
               }
             ]
           }
@@ -130,7 +130,23 @@
       },
       {
         "titulo": "Unidad 3: Estructuras Discretas no recursivas y análisis de algoritmos",
-        "semanas": []
+        "semanas": [
+          {
+            "titulo": "Semana 7",
+            "sesiones": [
+              {
+                "titulo": "Crecimiento de Funciones y Análisis de Algoritmos",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/crecimiento_funciones_analisis_algoritmos.pdf"
+              },
+              {
+                "titulo": "Analisis de Algoritmos Ejemplo 1",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed1/analisis_algoritmos_ej1.md"
+              }
+            ]
+          }
+        ]
       },
       {
         "titulo": "Unidad 4: Algoritmos y estructuras discretas recursivas",

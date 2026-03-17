@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Main {
 
-    // Contadores de cada línea
     static int c1 = 0;
     static int c2 = 0;
     static int c3 = 0;
@@ -56,7 +55,7 @@ public class Main {
         int[][] mat1 = new int[n][n];
         int[][] mat2 = new int[n][n];
 
-        // Inicialización simple
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 mat1[i][j] = i + j;
@@ -66,7 +65,7 @@ public class Main {
 
         int[][] resultado = sumarMatrices(mat1, mat2);
 
-        // Mostrar contadores
+
         System.out.println("\nConteo de operaciones:");
         System.out.println("c1 (i=0): " + c1);
         System.out.println("c2 (while i): " + c2);
@@ -75,6 +74,7 @@ public class Main {
         System.out.println("c5 (suma): " + c5);
         System.out.println("c6 (j++): " + c6);
         System.out.println("c7 (i++): " + c7);
+        System.out.println("Total: " + (c1+c2+c3+c4+c5+c6+c7));
 
         sc.close();
     }
