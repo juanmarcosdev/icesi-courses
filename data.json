@@ -118,6 +118,11 @@
                 "titulo": "Interface Set - Ejercicio (Solución)",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed1/interface_set_ejercicio_sol.md"
+              },
+              {
+                "titulo": "Analisis de Algoritmos Ejemplo 1",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed1/analisis_algoritmos_ej1.md"
               }
             ]
           }
