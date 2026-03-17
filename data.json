@@ -110,6 +110,16 @@
                 "archivo": "assets/docs/cyed1/interface_set_ejercicio.md"
               }
             ]
+          },
+          {
+            "titulo": "Semana 7",
+            "sesiones": [
+              {
+                "titulo": "Interface Set - Ejercicio (Solución)",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed1/interface_set_ejercicio_sol.md"
+              }
+            ]
           }
         ]
       },
@@ -258,7 +268,7 @@
               }
             ]
           },
-                    {
+          {
             "titulo": "Semana 6",
             "sesiones": [
               {
@@ -266,7 +276,7 @@
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed2/recursion_cola.md"
               },
-                            {
+              {
                 "titulo": "Recursión de Cola - Taller",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed2/recursion_cola_taller.md"
