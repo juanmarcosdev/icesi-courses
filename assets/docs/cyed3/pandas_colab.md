@@ -15,15 +15,17 @@ This is an **interactive workshop** focused on mastering the essential tools of 
 
 The workshop includes guided examples, live code execution, and cells you can modify and experiment with directly.
 
----
+***
 
 ## 🚀 Open the Interactive Workshop in Google Colab
 
-Click the image below to open the workshop in Google Colab and start coding:
+Click the badge below to open and run the notebook:
 
-[![Open in Google Colab](https://algotrading101.com/learn/wp-content/uploads/2021/05/Google-Colab-Guide-e1620759490851.jpg)](https://drive.google.com/file/d/1GWoHsrdMJoMygf85GTXiuOPNLKDU1CpC/view?usp=sharing)
+<a href="https://drive.google.com/file/d/1GWoHsrdMJoMygf85GTXiuOPNLKDU1CpC/view?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" style="height: 40px;">
+</a>
 
----
+***
 
 ### What You'll Do in This Workshop
 
@@ -37,7 +39,7 @@ Click the image below to open the workshop in Google Colab and start coding:
 - Detect and handle missing values (`NaN`)
 - Export your cleaned dataset to a new file
 
----
+***
 
 Open the notebook, run the cells, modify the examples, and explore how each method behaves.
 
