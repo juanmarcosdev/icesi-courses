@@ -381,40 +381,60 @@
             ]
           },
           {
-            "titulo": "Week 5",
-            "sesiones": [
-              {
-                "titulo": "Regex in Python",
-                "tipo": "pdf",
-                "archivo": "assets/docs/cyed3/regex_python.pdf"
-              },
-              {
-                "titulo": "Regex - Colab",
-                "tipo": "markdown",
-                "archivo": "assets/docs/cyed3/regex_colab.md"
-              }
-            ]
-          },
-                    {
-            "titulo": "Week 6",
-            "sesiones": [
-              {
-                "titulo": "Pandas",
-                "tipo": "markdown",
-                "archivo": "assets/docs/cyed3/pandas_colab.md"
-              },
-              {
-                "titulo": "Pyformlang",
-                "tipo": "markdown",
-                "archivo": "assets/docs/cyed3/pyformlang_colab.md"
-              },
-              {
-                "titulo": "Epsilon Transition Automata",
-                "tipo": "pdf",
-                "archivo": "assets/docs/cyed3/eTransition.pdf"
-              }
-            ]
-          }
+          "titulo": "Week 5",
+          "sesiones": [
+            {
+              "titulo": "Regex in Python",
+              "tipo": "pdf",
+              "archivo": "assets/docs/cyed3/regex_python.pdf"
+            },
+            {
+              "titulo": "Regex - Colab",
+              "tipo": "markdown",
+              "archivo": "assets/docs/cyed3/regex_colab.md"
+            },
+            {
+              "titulo": "Follow Up 1 Statement",
+              "tipo": "pdf",
+              "archivo": "assets/docs/cyed3/seg1.pdf"
+            },
+            {
+              "titulo": "Follow Up 1 Solution",
+              "tipo": "pdf",
+              "archivo": "assets/docs/cyed3/seg1sol.pdf"
+            }
+          ]
+        },
+        {
+          "titulo": "Week 6",
+          "sesiones": [
+            {
+              "titulo": "Pandas",
+              "tipo": "markdown",
+              "archivo": "assets/docs/cyed3/pandas_colab.md"
+            },
+            {
+              "titulo": "Pyformlang",
+              "tipo": "markdown",
+              "archivo": "assets/docs/cyed3/pyformlang_colab.md"
+            },
+            {
+              "titulo": "Epsilon Transition Automata",
+              "tipo": "pdf",
+              "archivo": "assets/docs/cyed3/eTransition.pdf"
+            },
+            {
+              "titulo": "Pre Follow Up 2",
+              "tipo": "markdown",
+              "archivo": "assets/docs/cyed3/pre_followup2.md"
+            },
+            {
+              "titulo": "Pre Follow Up 2 Solution",
+              "tipo": "markdown",
+              "archivo": "assets/docs/cyed3/pre_followup2_sol.md"
+            }
+          ]
+        }
         ]
       },
       {
