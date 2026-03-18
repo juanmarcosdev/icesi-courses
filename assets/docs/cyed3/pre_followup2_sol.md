@@ -36,6 +36,6 @@ Click the badge below to open and run the notebook:
 
 ***
 
-> 📥 **[Download transacciones.xlsx](../../cyed3/transacciones.xlsx)**
+> 📥 **[Download transacciones.xls](/assets/cyed3/transacciones.xls)**
 > — required to run the notebook locally or upload it to Colab.
 ```

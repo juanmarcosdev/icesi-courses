@@ -24,7 +24,7 @@ You are given an Excel file `transacciones.xls` containing 100 transactions.
 Each transaction has the following columns: `consecutivo`, `identificador`,
 `fecha`, `valor`, `banco`, and `medio`.
 
-> 📥 **[Download transacciones.xls](../../cyed3/transacciones.xls)**
+> 📥 **[Download transacciones.xls](/assets/cyed3/transacciones.xls)**
 
 As a first step, load the file into a **pandas DataFrame**. From that DataFrame
 you must generate three separate DataFrames named `taxes`, `public_services`,
