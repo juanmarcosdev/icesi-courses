@@ -123,6 +123,11 @@
                 "titulo": "Interface Set - Más Ejercicios",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed1/ejercicios_repaso_set.md"
+              },
+              {
+                "titulo": "Seguimiento 2 Parte Práctica",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed1/seg2.md"
               }
             ]
           }
