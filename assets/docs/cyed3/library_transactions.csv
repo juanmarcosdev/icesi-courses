@@ -1,0 +1,151 @@
+transaction_id,student_id,timestamp,item_title,action
+BK25-36049R,STU28289,2025-01-12 09:43:00,Probability and Statistics,return
+JN23-3906R,STU40495,2024-09-15 17:01:00,Probability and Statistics,return
+TH25-71427R,STU68878,2024-10-28 12:51:00,Introduction to Algorithms,return
+TH2-5575R,STU46421,2024-03-20 11:48:00,Artificial Intelligence: A Modern Approach,return
+JN23-47053L,STU15695,2025-01-08 15:34:00,Design Patterns,loan
+BK25-L,STU92397,2024-11-12 13:36:00,Discrete Mathematics,loan
+th23-4742L,STU20458,2025-03-13 11:55:00,Design Patterns,loan
+JN25-47820L,STU56566,2024-04-17 18:17:00,The Pragmatic Programmer,loan
+BK25-95569R,STU70589,2024-07-13 12:59:00,Probability and Statistics,return
+JN23-30022L,STU62581,2024-05-17 09:13:00,Graph Theory,loan
+BK25_8180L,STU61856,2025-03-28 18:29:00,Computer Networks,loan
+BK25-73580L,STU86622,2024-08-07 17:25:00,Database System Concepts,loan
+BK25-64687R,STU24371,2024-03-19 18:10:00,Computer Architecture,return
+JN24-78105L,STU82512,2025-03-16 08:43:00,Design Patterns,loan
+JN25-5574l,STU24621,2024-05-30 14:10:00,Software Engineering,unknown
+TH25-34523R,STU76542,2025-04-12 09:55:00,Deep Learning,return
+TH23-2505l,STU59009,2025-01-25 10:34:00,Calculus Early Transcendentals,unknown
+JN24-320l,STU24662,2025-04-20 13:56:00,Deep Learning,unknown
+BK25-10323L,STU19071,2025-05-15 20:34:00,Computer Networks,loan
+JN25-21644L,STU37760,2025-04-20 16:48:00,Discrete Mathematics,loan
+TH25-L,STU67422,2025-04-05 16:28:00,Design Patterns,loan
+BK24-02758R,STU87128,2024-04-22 08:04:00,Clean Code,return
+BK24-09288R,STU46500,2024-12-08 15:13:00,Probability and Statistics,return
+TH25-61954L,STU63354,2024-04-07 09:06:00,Computer Architecture,loan
+JN24-95562R,STU17944,2024-07-25 19:21:00,Design Patterns,return
+BK25-58801L,STU34050,2024-05-22 15:15:00,The Pragmatic Programmer,loan
+TH23-06631R,STU22224,2025-04-19 20:54:00,Linear Algebra Done Right,return
+JN24-28017R,STU31579,2024-07-13 08:24:00,Nature of Statistical Learning,return
+JN249-6931L,STU82845,2024-12-04 19:31:00,Computer Networks,loan
+BK23-75915R,STU51104,2024-01-30 08:37:00,Data Structures and Algorithms,return
+TH23-07456R,STU34356,2024-02-05 17:04:00,Linear Algebra Done Right,return
+TH23-75881R,STU91183,2024-02-11 14:42:00,Graph Theory,return
+JN24-26773R,STU44814,2024-07-21 10:42:00,Deep Learning,return
+BK23-60069R,STU19602,2024-10-02 11:32:00,Nature of Statistical Learning,return
+JN23-32019L,STU30676,2024-08-12 16:45:00,Deep Learning,loan
+TH25-01026L,STU96951,2024-02-23 10:16:00,Design Patterns,loan
+FE23-4463R,STU54942,2024-04-14 18:40:00,Nature of Statistical Learning,return
+JN23-12098L,STU15778,2024-01-02 13:49:00,Computer Networks,loan
+JN23-97155L,STU83519,2024-01-05 09:04:00,Computer Networks,loan
+JN25-72421L,STU26704,2024-01-22 12:23:00,Clean Code,loan
+TH2-1685R,STU56357,2025-02-03 16:56:00,Computer Architecture,return
+ZW23-2663R,STU64040,2024-01-13 10:47:00,Artificial Intelligence: A Modern Approach,return
+TH25-L,STU44970,2024-03-22 20:44:00,Design Patterns,loan
+BK24-29155L,STU55830,2024-06-05 20:55:00,Linear Algebra Done Right,loan
+TH23-52228L,STU19099,2025-05-10 20:17:00,Database System Concepts,loan
+JN25-70283R,STU25118,2025-03-25 12:11:00,Graph Theory,return
+BK23_9775L,STU66959,2024-06-25 19:50:00,Artificial Intelligence: A Modern Approach,loan
+TH23-50489R,STU43386,2024-01-23 19:27:00,Introduction to Algorithms,return
+TH25-94298L,STU66531,2024-02-05 18:58:00,Artificial Intelligence: A Modern Approach,loan
+TH23-94340L,STU97410,2024-07-28 13:25:00,Deep Learning,loan
+BK24-87154R,STU90676,2024-10-18 12:25:00,Probability and Statistics,return
+JN23_7044L,STU86019,2024-11-06 18:20:00,Software Engineering,loan
+TH23-67001R,STU96356,2024-02-13 12:32:00,Formal Languages and Automata,return
+BK25-40688R,STU29313,2024-01-13 08:15:00,Data Structures and Algorithms,return
+BK24-54322R,STU60328,2024-09-10 14:15:00,Computer Networks,return
+bk24-3586L,STU33053,2025-02-15 19:33:00,Software Engineering,loan
+BK23-59830L,STU97500,2024-09-28 16:38:00,Artificial Intelligence: A Modern Approach,loan
+TH25-L,STU65933,2025-03-01 16:28:00,Operating Systems,loan
+JN24-L,STU93579,2024-05-21 20:49:00,Calculus Early Transcendentals,loan
+BK24-57655L,STU40735,2024-05-19 13:20:00,Probability and Statistics,loan
+BK23-50206R,STU18418,2024-07-31 14:21:00,Probability and Statistics,return
+BK23-55070R,STU85456,2024-07-13 15:00:00,Database System Concepts,return
+JN24-70546R,STU73993,2024-04-22 12:27:00,Data Structures and Algorithms,return
+JN25-89017R,STU71261,2025-04-15 10:39:00,Probability and Statistics,return
+JN25-73976R,STU94246,2024-08-07 10:55:00,Software Engineering,return
+JN24-42907L,STU52840,2024-06-21 20:56:00,Compilers: Principles and Tools,loan
+JN24-10736R,STU80702,2024-01-27 13:14:00,The Pragmatic Programmer,return
+EA23-4052R,STU29973,2024-05-02 10:30:00,Design Patterns,return
+BK24-91681L,STU31992,2024-11-06 17:47:00,Design Patterns,loan
+JN2-9482R,STU13365,2025-04-20 12:36:00,Compilers: Principles and Tools,return
+TH23-09962R,STU23356,2024-12-22 20:19:00,Formal Languages and Automata,return
+TH239-5689L,STU79827,2024-08-07 18:23:00,The Pragmatic Programmer,loan
+JN23-55058R,STU66822,2025-05-06 13:40:00,Software Engineering,return
+BK25-L,STU95256,2024-05-18 17:51:00,Probability and Statistics,loan
+JN25-L,STU45179,2024-06-14 11:53:00,The Pragmatic Programmer,loan
+JN23-98367L,STU54092,2024-01-15 15:54:00,Artificial Intelligence: A Modern Approach,loan
+BK24-33863L,STU88139,2024-12-25 12:35:00,Introduction to Algorithms,loan
+BK23-31636L,STU82768,2025-01-23 11:44:00,Data Structures and Algorithms,loan
+JN24-2261L,STU39045,2024-07-26 19:15:00,Deep Learning,loan
+JN25_8699L,STU55056,2024-08-05 19:35:00,Artificial Intelligence: A Modern Approach,loan
+JN24-40190R,STU25814,2025-01-04 11:20:00,Design Patterns,return
+TH239-3139L,STU38361,2025-01-13 15:17:00,Graph Theory,loan
+TH24-1648l,STU35443,2024-05-31 11:23:00,Operating Systems,unknown
+TH25-16592R,STU17146,2024-10-10 12:44:00,Computer Networks,return
+JN23-01608L,STU71524,2024-09-02 15:21:00,Operating Systems,loan
+JN23_1071L,STU62521,2024-09-08 09:36:00,Clean Code,loan
+TH24-11165R,STU83147,2025-01-26 14:38:00,Formal Languages and Automata,return
+TH2-7382R,STU68028,2024-06-01 17:27:00,Deep Learning,return
+BK25-97005R,STU91987,2024-04-18 12:42:00,The Pragmatic Programmer,return
+BK25-9839R,STU63545,2024-08-18 19:38:00,Data Structures and Algorithms,return
+BK24-92663L,STU19329,2024-12-17 11:59:00,Nature of Statistical Learning,loan
+IP25-3242R,STU94886,2024-03-17 12:52:00,Computer Networks,return
+BK24-77994L,STU67560,2024-03-04 15:44:00,Deep Learning,loan
+TH25_8091L,STU67377,2024-02-11 17:02:00,Computer Architecture,loan
+JN23-1497l,STU40005,2025-05-07 18:53:00,Graph Theory,unknown
+BK25-35326R,STU32962,2024-08-28 16:41:00,Software Engineering,return
+TH2-8057R,STU21959,2024-08-28 13:26:00,Artificial Intelligence: A Modern Approach,return
+BK23-43229L,STU47777,2024-12-05 14:52:00,Probability and Statistics,loan
+BK24-33083R,STU62976,2025-03-18 16:52:00,Introduction to Algorithms,return
+JN24-889l,STU34586,2024-09-22 13:39:00,Data Structures and Algorithms,unknown
+BK23-35004R,STU47752,2024-08-12 19:31:00,Design Patterns,return
+TH25-31366L,STU82199,2024-01-08 16:26:00,The Pragmatic Programmer,loan
+BK24-15397L,STU48254,2024-09-17 19:17:00,Computer Architecture,loan
+BK24-L,STU28958,2024-07-15 11:58:00,Formal Languages and Automata,loan
+BK23-36209L,STU76550,2024-05-16 08:18:00,Deep Learning,loan
+TH24-2435l,STU68529,2024-10-02 15:22:00,Artificial Intelligence: A Modern Approach,unknown
+TH24-59683R,STU41300,2024-10-19 14:14:00,Computer Architecture,return
+TH24-92436L,STU96991,2025-02-09 18:09:00,Data Structures and Algorithms,loan
+TH2-5440R,STU23154,2025-03-23 15:06:00,Calculus Early Transcendentals,return
+th23-6718L,STU95823,2025-05-11 10:04:00,Data Structures and Algorithms,loan
+JN25_6513L,STU95175,2024-02-11 13:54:00,Probability and Statistics,loan
+JN25-94204R,STU90931,2024-02-05 11:40:00,Deep Learning,return
+WV24-1613R,STU23173,2024-08-15 10:44:00,Deep Learning,return
+jn23-4807L,STU56984,2024-07-10 14:09:00,Linear Algebra Done Right,loan
+TH25-23601R,STU20350,2024-11-08 14:39:00,Linear Algebra Done Right,return
+TH23-30434L,STU70236,2024-05-10 18:00:00,Software Engineering,loan
+OG23-1211R,STU87014,2024-06-02 18:27:00,Nature of Statistical Learning,return
+JN23-50423R,STU41091,2024-07-14 17:22:00,Graph Theory,return
+TH24-2876L,STU11061,2024-10-16 18:49:00,Clean Code,loan
+QG24-3771R,STU93442,2024-04-07 17:16:00,Computer Networks,return
+TH25-5168L,STU14373,2024-10-23 13:46:00,Computer Networks,loan
+JN24-97974R,STU36318,2024-03-08 20:34:00,Database System Concepts,return
+JN23-33682L,STU54396,2025-02-15 09:29:00,The Pragmatic Programmer,loan
+BK25-94925L,STU21836,2025-02-08 14:00:00,Nature of Statistical Learning,loan
+JN24-88189L,STU93695,2025-04-26 13:06:00,Linear Algebra Done Right,loan
+TH25-42993R,STU94889,2024-02-02 18:52:00,Software Engineering,return
+TH24_1912L,STU28320,2024-01-24 08:19:00,Data Structures and Algorithms,loan
+BK25-17782L,STU58629,2024-12-09 19:44:00,Probability and Statistics,loan
+TH25-20254R,STU74139,2024-11-11 14:17:00,Clean Code,return
+JN2-3869R,STU57537,2024-02-20 18:23:00,Probability and Statistics,return
+FZ23-6524R,STU69600,2024-02-16 18:13:00,Formal Languages and Automata,return
+jn23-2064L,STU84000,2024-04-15 09:53:00,Probability and Statistics,loan
+BK23-43065R,STU46342,2025-03-15 10:08:00,Probability and Statistics,return
+BK23-86647R,STU11947,2024-07-02 20:50:00,Linear Algebra Done Right,return
+BK23-34783R,STU65176,2024-09-26 09:47:00,The Pragmatic Programmer,return
+JN25-77813L,STU76039,2024-04-23 17:02:00,Calculus Early Transcendentals,loan
+TH23-7973L,STU65872,2024-12-17 09:31:00,Software Engineering,loan
+BK24-79731R,STU26540,2024-05-20 17:40:00,Graph Theory,return
+JN24-78302L,STU69469,2024-09-15 17:27:00,Design Patterns,loan
+th25-9034L,STU38183,2024-08-08 15:56:00,Linear Algebra Done Right,loan
+JN24-54525L,STU65936,2024-06-09 18:16:00,Database System Concepts,loan
+XC23-1495R,STU22656,2025-01-16 19:23:00,Computer Networks,return
+TH25-73621R,STU63845,2024-06-30 18:48:00,Computer Architecture,return
+FC24-9838R,STU76507,2024-04-18 10:42:00,Data Structures and Algorithms,return
+BK24-72911R,STU46512,2024-10-20 11:51:00,Computer Architecture,return
+TH259-9122L,STU13441,2024-11-07 18:53:00,Nature of Statistical Learning,loan
+JN25-99931L,STU56009,2024-01-04 10:55:00,Computer Networks,loan
+JN23-18596R,STU79531,2024-04-20 14:26:00,Software Engineering,return
+JN24-94582R,STU16895,2024-03-20 10:48:00,Formal Languages and Automata,return
+BK24-58080L,STU89570,2024-08-14 14:17:00,Discrete Mathematics,loan

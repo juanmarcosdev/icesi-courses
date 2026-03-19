@@ -439,6 +439,21 @@
               "archivo": "assets/docs/cyed3/pre_followup2_sol.md"
             }
           ]
+        },
+        {
+          "titulo": "Week 7",
+          "sesiones": [
+            {
+              "titulo": "Follow Up 2 PDF",
+              "tipo": "pdf",
+              "archivo": "assets/docs/cyed3/seg2.pdf"
+            },
+            {
+              "titulo": "Follow Up 2 - Resources",
+              "tipo": "markdown",
+              "archivo": "assets/docs/cyed3/followup2.md"
+            }
+          ]
         }
         ]
       },
