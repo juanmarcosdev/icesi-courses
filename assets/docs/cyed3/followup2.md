@@ -31,3 +31,5 @@ Once downloaded, upload it to your Colab notebook:
 from google.colab import files
 uploaded = files.upload()   # select library_transactions.csv
 ```
+
+DELIVER TO GITHUB CLASSROOM: https://classroom.github.com/a/HllT0fzg
