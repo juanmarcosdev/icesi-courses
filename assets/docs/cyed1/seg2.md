@@ -1,6 +1,5 @@
 ## Problema: Jugadores Activos
-**Estructura sugerida: `TreeSet`**
-**Operaciones utilizadas: `addAll` (unión) · `removeAll` (diferencia)**
+
 
 ### Contexto
 
@@ -22,29 +21,31 @@ ascendente.
 | `setA.retainAll(setB)` | A **∩** B | Elimina de `setA` todo lo que **no** esté en `setB` |
 | `setA.removeAll(setB)` | A **\\** B | Elimina de `setA` todo lo que **sí** esté en `setB` |
 
-> Para este problema use **`addAll`** y **`removeAll`**.
+
 
 ---
 
 ### Entrada
 
-Primera línea: NA NB K
-NA = jugadores en servidor A (1 ≤ NA ≤ 100 000)
-NB = jugadores en servidor B (1 ≤ NB ≤ 100 000)
-K = jugadores baneados (0 ≤ K ≤ 50 000)
+```
+Primera línea:   NA NB K
+                 NA = jugadores en servidor A  (1 ≤ NA ≤ 100 000)
+                 NB = jugadores en servidor B  (1 ≤ NB ≤ 100 000)
+                 K  = jugadores baneados       (0 ≤ K  ≤  50 000)
 
-Segunda línea: NA enteros — IDs servidor A
-Tercera línea: NB enteros — IDs servidor B
-Cuarta línea: K enteros — IDs baneados
-(1 ≤ ID ≤ 10^9, pueden repetirse dentro de cada línea)
-
+Segunda línea:   NA enteros — IDs servidor A
+Tercera línea:   NB enteros — IDs servidor B
+Cuarta línea:    K  enteros — IDs baneados
+                 (1 ≤ ID ≤ 10^9, pueden repetirse dentro de cada línea)
+```
 
 ### Salida
 
-Primera línea: número de jugadores activos
-Segunda línea: sus IDs en orden ascendente separados por espacio
-(línea vacía si no hay ninguno)
-
+```
+Primera línea:   número de jugadores activos
+Segunda línea:   sus IDs en orden ascendente separados por espacio
+                 (línea vacía si no hay ninguno)
+```
 
 ---
 
@@ -53,69 +54,70 @@ Segunda línea: sus IDs en orden ascendente separados por espacio
 #### Ejemplo 1
 
 **Entrada:**
-
+```
 5 4 2
 3 7 1 9 3
 5 7 2 9
 7 2
-
+```
 
 **Salida:**
-
+```
 4
 1 3 5 9
-
+```
 
 **Explicación:**
-
-Servidor A = {1, 3, 7, 9} ← duplicado 3 ignorado
-Servidor B = {2, 5, 7, 9}
-Unión = {1, 2, 3, 5, 7, 9} ← addAll
-Baneados = {2, 7}
-Activos = {1, 3, 5, 9} ← removeAll → 4 jugadores
-
+```
+Servidor A  = {1, 3, 7, 9}        ← duplicado 3 ignorado
+Servidor B  = {2, 5, 7, 9}
+Unión       = {1, 2, 3, 5, 7, 9}  ← addAll
+Baneados    = {2, 7}
+Activos     = {1, 3, 5, 9}        ← removeAll  →  4 jugadores
+```
 
 ---
 
 #### Ejemplo 2 — Todos baneados
 
 **Entrada:**
-
+```
 3 3 3
 10 20 30
 10 20 30
 10 20 30
-
+```
 
 **Salida:**
-
+```
 0
 
+```
 
 ---
 
 #### Ejemplo 3 — Baneado no existe en ningún servidor
 
 **Entrada:**
-
+```
 4 2 1
 8 4 6 2
 1 6
 99
-
+```
 
 **Salida:**
-
+```
 5
 1 2 4 6 8
-
+```
 
 **Explicación:**
-
-Unión = {1, 2, 4, 6, 8}
-Baneados = {99} ← no está en la unión, removeAll no elimina nada
-Activos = {1, 2, 4, 6, 8} → 5 jugadores
-
+```
+Unión    = {1, 2, 4, 6, 8}
+Baneados = {99}  ← no está en la unión, removeAll no elimina nada
+Activos  = {1, 2, 4, 6, 8}  →  5 jugadores
+```
 
 ---
 
@@ -151,7 +153,6 @@ public class Main {
         System.out.println(sb.toString().trim());
     }
 
-
     public static TreeSet<Integer> jugadoresActivos(int[] servidorA,
                                                      int[] servidorB,
                                                      int[] baneados) {
@@ -161,4 +162,6 @@ public class Main {
 }
 ```
 
-GitHub Classroom: https://classroom.github.com/a/VjvN28Vj
+---
+
+📎 **GitHub Classroom:** [https://classroom.github.com/a/VjvN28Vj](https://classroom.github.com/a/VjvN28Vj)
