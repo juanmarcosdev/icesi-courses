@@ -33,3 +33,21 @@ uploaded = files.upload()   # select library_transactions.csv
 ```
 
 DELIVER TO GITHUB CLASSROOM: https://classroom.github.com/a/HllT0fzg
+
+```python
+def filter_df(df, automaton):
+    mask = df['identificador'].apply(
+        lambda x: automaton.accepts(list(str(x).strip()))
+    )
+    return df[mask].reset_index(drop=True)
+
+taxes           = filter_df(df, dfa_taxes)
+public_services = filter_df(df, nfa_serv)
+shopping        = filter_df(df, nfa_shop)
+
+print(f"taxes          : {len(taxes)} rows")
+print(f"public_services: {len(public_services)} rows")
+print(f"shopping       : {len(shopping)} rows")
+total = len(taxes) + len(public_services) + len(shopping)
+print(f"Unclassified   : {len(df) - total} rows")
+```
