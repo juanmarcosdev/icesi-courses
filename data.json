@@ -457,6 +457,11 @@
               "titulo": "Follow Up 2 - Resources",
               "tipo": "markdown",
               "archivo": "assets/docs/cyed3/followup2.md"
+            },
+            {
+              "titulo": "Transducers",
+              "tipo": "pdf",
+              "archivo": "assets/docs/cyed3/transducers.pdf"
             }
           ]
         }
@@ -465,13 +470,28 @@
       {
         "titulo": "Unit 2: Grammars and Languages",
         "semanas": [
-                    {
+          {
             "titulo": "Week 7",
             "sesiones": [
               {
                 "titulo": "Regular Grammars",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed3/regular_grammars.pdf"
+              },
+                            {
+                "titulo": "Transducer Colab",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed3/transducer_colab.md"
+              }
+            ]
+          },
+          {
+            "titulo": "Week 8",
+            "sesiones": [
+              {
+                "titulo": "Context-Free Grammars",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/cfg.pdf"
               }
             ]
           }
