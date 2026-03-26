@@ -123,11 +123,31 @@
                 "titulo": "Interface Set - Más Ejercicios",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed1/ejercicios_repaso_set.md"
+              }
+            ]
+          },
+          {
+            "titulo": "Semana 8",
+            "sesiones": [
+              {
+                "titulo": "Seguimiento 2 - A",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/seg2a.pdf"
               },
               {
-                "titulo": "Seguimiento 2 Parte Práctica",
-                "tipo": "markdown",
-                "archivo": "assets/docs/cyed1/seg2.md"
+                "titulo": "Seguimiento 2 - A (Solución)",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/seg2asol.pdf"
+              },
+              {
+                "titulo": "Seguimiento 2 - B",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/seg2b.pdf"
+              },
+              {
+                "titulo": "Seguimiento 2 - B (Solución)",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/seg2bsol.pdf"
               }
             ]
           }
@@ -454,14 +474,14 @@
               "archivo": "assets/docs/cyed3/seg2.pdf"
             },
             {
-              "titulo": "Follow Up 2 - Resources",
-              "tipo": "markdown",
-              "archivo": "assets/docs/cyed3/followup2.md"
-            },
-            {
               "titulo": "Transducers",
               "tipo": "pdf",
               "archivo": "assets/docs/cyed3/transducers.pdf"
+            },
+            {
+                "titulo": "Transducer Colab",
+                "tipo": "markdown",
+                "archivo": "assets/docs/cyed3/transducer_colab.md"
             }
           ]
         }
@@ -477,11 +497,6 @@
                 "titulo": "Regular Grammars",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed3/regular_grammars.pdf"
-              },
-                            {
-                "titulo": "Transducer Colab",
-                "tipo": "markdown",
-                "archivo": "assets/docs/cyed3/transducer_colab.md"
               }
             ]
           },
