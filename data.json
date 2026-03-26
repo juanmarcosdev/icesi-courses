@@ -157,7 +157,7 @@
         "titulo": "Unidad 3: Estructuras Discretas no recursivas y análisis de algoritmos",
         "semanas": [
           {
-            "titulo": "Semana 7",
+            "titulo": "Semana 8",
             "sesiones": [
               {
                 "titulo": "Crecimiento de Funciones y Análisis de Algoritmos",
@@ -482,6 +482,21 @@
                 "titulo": "Transducer Colab",
                 "tipo": "markdown",
                 "archivo": "assets/docs/cyed3/transducer_colab.md"
+            }
+          ]
+        },
+        {
+          "titulo": "Week 8",
+          "sesiones": [
+            {
+              "titulo": "Follow Up 3 PDF",
+              "tipo": "pdf",
+              "archivo": "assets/docs/cyed3/seg3.pdf"
+            },
+            {
+              "titulo": "Follow Up 3 Resources",
+              "tipo": "markdown",
+              "archivo": "assets/docs/cyed3/followup3.md"
             }
           ]
         }
