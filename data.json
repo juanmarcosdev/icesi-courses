@@ -175,6 +175,16 @@
                 "archivo": "assets/docs/cyed1/analisis_algoritmos_ej2.md"
               }
             ]
+          },
+          {
+            "titulo": "Semana 9",
+            "sesiones": [
+              {
+                "titulo": "Pilas y Colas",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/pilas_y_colas.pdf"
+              }
+            ]
           }
         ]
       },
@@ -522,6 +532,16 @@
                 "titulo": "Context-Free Grammars",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed3/cfg.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Week 9",
+            "sesiones": [
+              {
+                "titulo": "BNF and EBNF",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/bnf.pdf"
               }
             ]
           }
