@@ -185,6 +185,31 @@
                 "archivo": "assets/docs/cyed1/pilas_y_colas.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Semana 10",
+            "sesiones": [
+              {
+                "titulo": "Tablas Hash",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/tablas_hash.pdf"
+              },
+              {
+                "titulo": "Cola de prioridad",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/cola_prioridad.pdf"
+              },
+              {
+                "titulo": "Generics",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/generics.pdf"
+              },
+              {
+                "titulo": "TAD",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/tad.pdf"
+              }
+            ]
           }
         ]
       },
