@@ -208,6 +208,11 @@
                 "titulo": "TAD",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed1/tad.pdf"
+              },
+              {
+                "titulo": "Complejidad espacial",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/complejidad_espacial.pdf"
               }
             ]
           }
