@@ -276,6 +276,21 @@
             ]
           },
           {
+            "titulo": "Semana 9",
+            "sesiones": [
+              {
+                "titulo": "Quiz 3",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/quiz3.pdf"
+              },
+              {
+                "titulo": "Quiz 3 - Solución",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/quiz3_sol.pdf"
+              }
+            ]
+          }
+          {
             "titulo": "Semana 10",
             "sesiones": [
               {
@@ -284,7 +299,7 @@
                 "archivo": "assets/docs/cyed2/preseguimiento3.pdf"
               },
               {
-                "titulo": "Pre Seguimiento 3 - SOL",
+                "titulo": "Pre Seguimiento 3 - Solución",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed2/preseguimiento3_sol.pdf"
               }
