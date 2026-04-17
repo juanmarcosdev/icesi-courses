@@ -274,6 +274,21 @@
                 "archivo": "assets/docs/cyed2/induccion_matematica.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Semana 10",
+            "sesiones": [
+              {
+                "titulo": "Pre Seguimiento 3",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/preseguimiento3.pdf"
+              },
+              {
+                "titulo": "Pre Seguimiento 3 - SOL",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/preseguimiento3_sol.pdf"
+              }
+            ]
           }
         ]
       },
