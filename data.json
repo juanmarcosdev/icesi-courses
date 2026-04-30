@@ -215,6 +215,21 @@
                 "archivo": "assets/docs/cyed1/complejidad_espacial.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Semana 11",
+            "sesiones": [
+              {
+                "titulo": "Seguimiento 3",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/seguimiento3.pdf"
+              },
+              {
+                "titulo": "Seguimiento 3 - Solución",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/seguimiento3_sol.pdf"
+              }
+            ]
           }
         ]
       },
@@ -266,7 +281,7 @@
         "titulo": "Unidad 2: Inducción y recursividad",
         "semanas": [
           {
-            "titulo": "Semana 6",
+            "titulo": "Semanas 6, 7",
             "sesiones": [
               {
                 "titulo": "Inducción Matemática",
@@ -390,7 +405,7 @@
             ]
           },
           {
-            "titulo": "Semana 6",
+            "titulo": "Semanas 6, 7",
             "sesiones": [
               {
                 "titulo": "Scala: Recursión de Cola",
