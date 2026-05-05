@@ -319,6 +319,21 @@
                 "archivo": "assets/docs/cyed2/preseguimiento3_sol.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Semana 11",
+            "sesiones": [
+              {
+                "titulo": "Seguimiento 3",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/seguimiento3.pdf"
+              },
+              {
+                "titulo": "Seguimiento 3 - Solución",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/seguimiento3_sol.pdf"
+              }
+            ]
           }
         ]
       },
@@ -617,6 +632,21 @@
                 "titulo": "BNF and EBNF",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed3/bnf.pdf"
+              }
+            ]
+          },
+          {
+            "titulo": "Week 10",
+            "sesiones": [
+              {
+                "titulo": "Quiz 2",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/quiz2.pdf"
+              },
+              {
+                "titulo": "Quiz 2 - Solution",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/quiz2_sol.pdf"
               }
             ]
           }
