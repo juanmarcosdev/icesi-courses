@@ -331,7 +331,7 @@
               {
                 "titulo": "Seguimiento 3 - Solución",
                 "tipo": "pdf",
-                "archivo": "assets/docs/cyed2/seguimiento3_sol.pdf"
+                "archivo": "assets/docs/cyed2/metseguimiento3_sol.pdf"
               }
             ]
           }
@@ -339,7 +339,18 @@
       },
       {
         "titulo": "Unidad 3: Introducción a la teoría de números",
-        "semanas": []
+        "semanas": [
+          {
+            "titulo": "Semana 12",
+            "sesiones": [
+              {
+                "titulo": "Teoría de Números",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/teoria_de_numeros.pdf"
+              }
+            ]
+          }
+        ]
       },
       {
         "titulo": "Unidad: Programación Funcional",
