@@ -665,7 +665,18 @@
       },
       {
         "titulo": "Unit 3: Turing Machines and Applications",
-        "semanas": []
+        "semanas": [
+          {
+            "titulo": "Week 12",
+            "sesiones": [
+              {
+                "titulo": "Turing Machines",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/turing_machines.pdf"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
