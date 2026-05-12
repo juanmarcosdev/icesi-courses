@@ -55,6 +55,22 @@ Interactive notebook introducing:
 
 <!-- Add future workshops below -->
 
+### 3. Complete Guide
+
+The full Guide to ML.
+
+🚀 Open in Colab:
+
+<a href="https://drive.google.com/file/d/16_TjJISQSM81uAwshRuAJWbgjnhFn_mh/view?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg"
+       alt="Open in Colab"
+       style="height: 40px;">
+</a>
+
+---
+
+<!-- Add future workshops below -->
+
 ### X. Workshop Title
 
 Short workshop description.
