@@ -690,6 +690,16 @@
                 "archivo": "assets/docs/cyed3/ml_colabs.md"
               }
             ]
+          },
+          {
+            "titulo": "Week 14",
+            "sesiones": [
+              {
+                "titulo": "RNN",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/rnn.pdf"
+              }
+            ]
           }
         ]
       }
