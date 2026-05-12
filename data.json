@@ -675,6 +675,21 @@
                 "archivo": "assets/docs/cyed3/turing_machines.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Week 13",
+            "sesiones": [
+              {
+                "titulo": "Machine Learning",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed3/intro_machine_learning.pdf"
+              },
+              {
+                "titulo": "ML Colabs",
+                "tipo": "md",
+                "archivo": "assets/docs/cyed3/ml_colabs.md"
+              }
+            ]
           }
         ]
       }
