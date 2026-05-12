@@ -31,6 +31,26 @@ Interactive notebook introducing:
        style="height: 40px;">
 </a>
 
+
+---
+
+<!-- Add future workshops below -->
+
+### 2. RNN
+
+Interactive notebook introducing:
+
+- RNN
+
+🚀 Open in Colab:
+
+<a href="https://colab.research.google.com/drive/1suXclO_euQW7zA4KFZT8gAGxqPksSzQN?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg"
+       alt="Open in Colab"
+       style="height: 40px;">
+</a>
+
+
 ---
 
 <!-- Add future workshops below -->
