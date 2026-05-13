@@ -349,6 +349,16 @@
                 "archivo": "assets/docs/cyed2/teoria_de_numeros.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Semana 13",
+            "sesiones": [
+              {
+                "titulo": "Teoría de Números II",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/teoria_de_numeros2.pdf"
+              }
+            ]
           }
         ]
       },
