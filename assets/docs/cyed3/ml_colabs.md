@@ -53,7 +53,6 @@ Interactive notebook introducing:
 
 ---
 
-<!-- Add future workshops below -->
 
 ### 3. Complete Guide
 
@@ -62,6 +61,22 @@ The full Guide to ML.
 🚀 Open in Colab:
 
 <a href="https://drive.google.com/file/d/16_TjJISQSM81uAwshRuAJWbgjnhFn_mh/view?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg"
+       alt="Open in Colab"
+       style="height: 40px;">
+</a>
+
+---
+
+### 4. Netflix Example
+
+Netflix Example
+
+> 📥 **[Download netflix_titles.csv](https://raw.githubusercontent.com/juanmarcosdev/icesi-courses/main/assets/docs/cyed3/netflix_titles.csv)**
+
+🚀 Open in Colab:
+
+<a href="https://colab.research.google.com/drive/17QsPJWd_nBWG3UZGiEu6ML56mjjvP3Lc?usp=sharing">
   <img src="https://colab.research.google.com/assets/colab-badge.svg"
        alt="Open in Colab"
        style="height: 40px;">
