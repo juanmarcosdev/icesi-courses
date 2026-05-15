@@ -347,11 +347,6 @@
                 "titulo": "Teoría de Números",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed2/teoria_de_numeros.pdf"
-              },
-              {
-                "titulo": "Seguimiento 4",
-                "tipo": "pdf",
-                "archivo": "assets/docs/cyed2/seg4.pdf"
               }
             ]
           },
@@ -362,6 +357,11 @@
                 "titulo": "Teoría de Números II",
                 "tipo": "pdf",
                 "archivo": "assets/docs/cyed2/teoria_de_numeros2.pdf"
+              },
+                            {
+                "titulo": "Seguimiento 4",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed2/seg4.pdf"
               }
             ]
           },
