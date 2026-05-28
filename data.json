@@ -725,6 +725,16 @@
                 "archivo": "assets/docs/cyed3/rnn.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Week 16",
+            "sesiones": [
+              {
+                "titulo": "Follow Up 5",
+                "tipo": "md",
+                "archivo": "assets/docs/cyed3/followup5.md"
+              }
+            ]
           }
         ]
       }
