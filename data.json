@@ -230,6 +230,21 @@
                 "archivo": "assets/docs/cyed1/seguimiento3_sol.pdf"
               }
             ]
+          },
+          {
+            "titulo": "Semana 16",
+            "sesiones": [
+              {
+                "titulo": "Grafos 2",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/grafos2.pdf"
+              },
+              {
+                "titulo": "Grafos 3",
+                "tipo": "pdf",
+                "archivo": "assets/docs/cyed1/grafos3.pdf"
+              }
+            ]
           }
         ]
       },
