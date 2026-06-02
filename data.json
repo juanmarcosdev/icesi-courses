@@ -230,8 +230,17 @@
                 "archivo": "assets/docs/cyed1/seguimiento3_sol.pdf"
               }
             ]
-          },
-          {
+          }
+        ]
+      },
+      {
+        "titulo": "Unidad 4: Algoritmos y estructuras discretas recursivas",
+        "semanas": []
+      },
+      {
+        "titulo": "Unidad 5: Grafos",
+        "semanas": [
+                    {
             "titulo": "Semana 16",
             "sesiones": [
               {
@@ -247,14 +256,6 @@
             ]
           }
         ]
-      },
-      {
-        "titulo": "Unidad 4: Algoritmos y estructuras discretas recursivas",
-        "semanas": []
-      },
-      {
-        "titulo": "Unidad 5: Grafos",
-        "semanas": []
       }
     ]
   },
